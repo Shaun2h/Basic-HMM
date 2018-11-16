@@ -7,7 +7,7 @@ Part 4a contains your second order transmission parameter estimation<br>
 Part 4b contains your viterbi, changed up for second order viterbi computation<br>
 evalResult.py contains a evaluator that was bundled with teh questions provided.<br>
 ```git clone``` <br>
-```Python3 Part<>.py "DATASET directory"```<br>
+```python3 Part<>.py "DATASET directory"```<br>
 If you aren't going to use these datasets, please ensure test set files are named dev.in and training files are named train<br>
 Both should be located inside the appropriate folder.<br>
 <br>

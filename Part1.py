@@ -1,3 +1,4 @@
+import sys
 class EmissionMLE:
 
     def train(self, file):
@@ -87,16 +88,19 @@ class EmissionMLE:
                     best_tag = tag
         return best_tag
 
+if len(sys.argv)<2:
+    print("Usage: python3 Part<>.py 'DATASET directory'")
+    sys.exit()
 
-f = open("EN/train", "r", encoding="utf-8")
+f = open(sys.argv[1] + "/train", "r", encoding="utf-8")
 estimator = EmissionMLE()
 estimator.train(f)
 estimator.get_probability("-", "O")
 estimator.get_arg_max("-")
 k = estimator.dood()
 
-output = open("EN/dev.p2.out", "w", encoding="utf-8")
-inp = open("EN/dev.in", "r", encoding="utf-8")
+output = open(sys.argv[1] + "/dev.p2.out", "w", encoding="utf-8")
+inp = open(sys.argv[1] + "/dev.in", "r", encoding="utf-8")
 list_of_tags = []
 for given_word in inp.readlines():  # this is to ignore the newline character
     if given_word != "\n":

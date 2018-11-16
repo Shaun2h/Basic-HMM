@@ -219,7 +219,6 @@ def compare_observed_to_predicted(observed, predicted):
 
 
 ##############Main Function##################
-sys.argv=["","EN/dev.out" ,"EN/dev.p4.out"]
 if len(sys.argv) < 3:
     print ('Please make sure you have installed Python 3.4 or above!')
     print ("Usage on Windows:  python evalResult.py [gold file] [prediction file]")

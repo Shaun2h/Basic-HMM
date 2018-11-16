@@ -1,7 +1,7 @@
+import sys
 from Part1 import EmissionMLE
 from Part2 import TransitionEstimator
 from Part4a import SecondOrderTransitionEstimator
-import random
 class Viterbi2(object):
 
     def __init__(self, transition_class, estimation_class, second_order_class):
@@ -130,21 +130,25 @@ class Viterbi2(object):
         return return_probabilities
 
 
-f = open("EN/train", "r", encoding="utf-8")
+if len(sys.argv) < 2:
+    print("Usage: python3 Part<>.py 'DATASET directory'")
+    sys.exit()
+
+f = open(sys.argv[1] + "/train", "r", encoding="utf-8")
 transitions = TransitionEstimator()
 transitions.train(f)
 f.close()
-f = open("EN/train", "r", encoding="utf-8")
+f = open(sys.argv[1] +"/train", "r", encoding="utf-8")
 estimator = EmissionMLE()
 estimator.train(f)
 f.close()
-f = open("EN/train", "r", encoding="utf-8")
+f = open(sys.argv[1] + "/train", "r", encoding="utf-8")
 secondorder = SecondOrderTransitionEstimator()
 secondorder.train(f)
 predictor = Viterbi2(transitions, estimator, secondorder)
 
-input_file = open("EN/dev.in", "r", encoding="utf-8")
-output_file = open("EN/dev.p4.out", "w", encoding="utf-8")
+input_file = open(sys.argv[1] + "/dev.in", "r", encoding="utf-8")
+output_file = open(sys.argv[1] + "/dev.p4.out", "w", encoding="utf-8")
 
 holder = []
 for line in input_file.readlines():

@@ -1,3 +1,4 @@
+import sys
 from Part1 import EmissionMLE
 from Part2 import TransitionEstimator
 
@@ -103,16 +104,19 @@ class Viterbi(object):
         return return_probabilities
 
 
-f = open("EN/train", "r", encoding="utf-8")
+if len(sys.argv) < 2:
+    print("Usage: python3 Part<>.py 'DATASET directory'")
+    sys.exit()
+f = open(sys.argv[1] + "/train", "r", encoding="utf-8")
 transitions = TransitionEstimator()
 transitions.train(f)
-f = open("EN/train", "r", encoding="utf-8")
+f = open(sys.argv[1] + "/train", "r", encoding="utf-8")
 estimator = EmissionMLE()
 estimator.train(f)
 predictor = Viterbi(transitions, estimator)
 
-input_file = open("EN/dev.in", "r", encoding="utf-8")
-output_file = open("EN/dev.p3.out", "w", encoding="utf-8")
+input_file = open(sys.argv[1] + "/dev.in", "r", encoding="utf-8")
+output_file = open(sys.argv[1] + "/dev.p3.out", "w", encoding="utf-8")
 
 holder = []
 for line in input_file.readlines():

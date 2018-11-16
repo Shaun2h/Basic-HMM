@@ -91,6 +91,9 @@ class SecondOrderTransitionEstimator(object):
         return tag_dict
 
 
-f = open("EN/train", "r", encoding="utf-8")
-transitions = SecondOrderTransitionEstimator()
-transitions.train(f)
+# test code.
+# f = open("EN/train", "r", encoding="utf-8")
+# transitions = SecondOrderTransitionEstimator()
+# transitions.train(f)
+
+
