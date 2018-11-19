@@ -28,17 +28,19 @@ class Viterbi(object):
 
     def process_sentence(self, sentence_list):
         counter = 1
-        allnodes = {0: {"START": 1}}
+        allnodes = {0: {"START": (1, "")}}
         for provided_word in sentence_list:
             allnodes[counter] = self.predict(provided_word, allnodes[counter-1])
             counter += 1
         stop_transition_probabilities = self.get_reverse_transition_probabilities("STOP")
         best_prob = 0
+        best_tag = ""
         for node in allnodes[counter-1].keys():
-            calculated_probability = allnodes[counter-1][node]*stop_transition_probabilities[node]
+            calculated_probability = allnodes[counter-1][node][0]*stop_transition_probabilities[node]
             if calculated_probability:
                 best_prob = calculated_probability  # save the best probability
-        allnodes[counter] = {"STOP": best_prob}
+                best_tag = node
+        allnodes[counter] = {"STOP": (best_prob, best_tag)}
         """
         for key in allnodes:
             print(key)
@@ -47,9 +49,20 @@ class Viterbi(object):
         counter += 1
 
         give_back_value = []
+        latest = allnodes[counter-1]["STOP"][1]
+        if latest == "":
+            latest = "UNKNOWN"
+            give_back_value.append("O")
+        else:
+            give_back_value.append(latest)
 
-        for d in range(counter):
-            give_back_value.append(max(allnodes[d].keys(), key=(lambda k: allnodes[d][k])))
+        for d in range(counter-2, 0, -1):
+            if latest != "UNKNOWN":
+                latest = allnodes[d][latest][1]
+                give_back_value.append(latest)
+            else:
+                latest = max(allnodes[d].keys(), key=(lambda k: allnodes[d][k]))
+
         give_back_value.pop()
         give_back_value.pop(0)
         return give_back_value
@@ -64,13 +77,14 @@ class Viterbi(object):
             # grabbed the probability to get to the target node from ALL OTHER NODES.
             this_word_probability = word_to_tag_probabilities[some_target_tag]
             best_probability = 0
-
+            best_tag = ""
             for last_node in all_last_nodes.keys():
-                last_probability = all_last_nodes[last_node]
+                last_probability = all_last_nodes[last_node][0]
                 transition_to_target = transition_probabilities[last_node]
                 calculated_probability = last_probability * transition_to_target
                 if calculated_probability >= best_probability:
                     best_probability = calculated_probability
+                    best_tag = last_node
                 """
                 if (latest_word == "counting"):
                     if transition_to_target != 0:
@@ -98,7 +112,7 @@ class Viterbi(object):
             if(latest_word=="counting"):
                 print("BEST PROBZ: " + str(best_probability))
             """
-            return_probabilities[some_target_tag] = best_probability * this_word_probability
+            return_probabilities[some_target_tag] = (best_probability * this_word_probability, best_tag)
             # print("END")
         # print("\n\n\n\n\n\n\n\n")
         return return_probabilities

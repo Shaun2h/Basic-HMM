@@ -35,15 +35,16 @@ class TransitionEstimator(object):
 
         for outer_tag in tag_dict.keys():
             summation = tag_dict[outer_tag]["SUMMATION"]
-            del tag_dict[outer_tag]["SUMMATION"]
+
             for inner_tag in tag_dict[outer_tag].keys():
                 tag_dict[outer_tag][inner_tag] = tag_dict[outer_tag][inner_tag] / summation
 
         for outer_tag in tag_dict.keys():
             for outer_tag2 in tag_dict.keys():
                 if outer_tag2 not in tag_dict[outer_tag].keys():
-                    tag_dict[outer_tag][outer_tag2] = 0
-
+                    tag_dict[outer_tag][outer_tag2] = 1 / (tag_dict[outer_tag]["SUMMATION"]+1)
+                    #smoothing
+            del tag_dict[outer_tag]["SUMMATION"]
         self.tag_dict = tag_dict
         return tag_dict
 
