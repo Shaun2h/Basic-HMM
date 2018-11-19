@@ -41,19 +41,17 @@ class SecondOrderTransitionEstimator(object):
                     tag_dict[past_tag][nearer_tag][latest_tag] =\
                         tag_dict[past_tag][nearer_tag][latest_tag] + 1.0
                     # attempt addition of current tag.
-                    tag_dict[past_tag][nearer_tag]["SUMMATION"] = \
-                        tag_dict[past_tag][nearer_tag]["SUMMATION"] + 1.0
                 except KeyError:  # latest_tag does not exist in nearer tag
                     try:
                         tag_dict[past_tag][nearer_tag][latest_tag] = 1.0
-                    except KeyError:  # can't access nearer_tag's dictionary. it does not exist.
+                    except KeyError:  # nearer tag has not been created
                         try:
-                            tag_dict[past_tag][nearer_tag] = {latest_tag: 1.0, "SUMMATION": 1.0}
+                            tag_dict[past_tag][nearer_tag] = {latest_tag: 1.0}
                             # So we attempt to add the latest tag and summation to
                             # this nearer tag dict after initialising it of course.
                         except KeyError:  # can't access tag_dict[past_tag]
                             # Past tag's dict isn't even initiated.
-                            tag_dict[past_tag] = {nearer_tag: {latest_tag: 1.0, "SUMMATION": 1.0}}
+                            tag_dict[past_tag] = {nearer_tag: {latest_tag: 1.0}}
                             # initiate past tag's dict, nearer tag's dict, and place latest_tag
                             # and summation counts.
 
@@ -67,6 +65,12 @@ class SecondOrderTransitionEstimator(object):
                 past_tag = None
                 latest_tag = None
 
+        for outermost_tag in tag_dict.keys():
+            for inner_tag in tag_dict[outermost_tag].keys():
+                summer = 0
+                for innermost_tag in tag_dict[outermost_tag][inner_tag].keys():
+                    summer += tag_dict[outermost_tag][inner_tag][innermost_tag]
+                tag_dict[outermost_tag][inner_tag]["SUMMATION"]=summer
         # print(tag_dict)
         # Final processing here.... CONVERTING TO DECIMALS
         for source in tag_dict.keys():
@@ -77,17 +81,21 @@ class SecondOrderTransitionEstimator(object):
                     tag_dict[source][second_source][target] = \
                         tag_dict[source][second_source][target] \
                         / tag_dict[source][second_source]["SUMMATION"]
-                del tag_dict[source][second_source]["SUMMATION"]
 
         for outer in tag_dict.keys():
             for inner in tag_dict[outer].keys():
                 for existing_tag in all_tags:
                     if existing_tag not in tag_dict[outer][inner].keys():
-                        tag_dict[outer][inner][existing_tag] = 0
+                        tag_dict[outer][inner][existing_tag] = \
+                            1/(tag_dict[outer][inner]["SUMMATION"] + 1)
+                del tag_dict[outer][inner]["SUMMATION"]
                         # input 0 for all the empty ones
+
+                        # smooth for all empty transitions.
 
         # save.
         self.tag_dict = tag_dict
+        #print(tag_dict)
         return tag_dict
 
 

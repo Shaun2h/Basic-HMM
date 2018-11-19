@@ -55,7 +55,7 @@ class Viterbi2(object):
                     stop_transition_probabilities = \
                         self.second_order.tag_dict[last_last_node][node]["STOP"]
                 else:
-                    stop_transition_probabilities=0
+                    stop_transition_probabilities = 0
             else:
                 stop_transition_probabilities = 0
 
@@ -74,9 +74,19 @@ class Viterbi2(object):
         #     print(key)
         #     print(allnodes[key])
         give_back_value = []
+        resultant = allnodes[counter]["STOP"]["PREV_PROB"][1]
+        if(resultant=="ERROR"): #All previous nodes were zero...
+            resultant = max(allnodes[counter-1].keys(), key=(lambda k: allnodes[counter-1][k]["PREV_PROB"][1]))
+            give_back_value.append(resultant)
+
         for i in range(counter-1, 0, -1):
-            give_back_value.append(max(allnodes[i].keys(), key=(lambda k: allnodes[i][k]["CURRENT_PROB"])))
+            resultant = allnodes[i][resultant]["PREV_PROB"][1]
+            if resultant == '':  # All nodes are ending in zero...
+                resultant = max(allnodes[i].keys(),
+                                key=(lambda k: allnodes[i][k]["PREV_PROB"][1]))
+            give_back_value.append(resultant)
         # print(give_back_value)
+
         give_back_value.pop(0)
         give_back_value.reverse()
         return give_back_value
@@ -161,5 +171,5 @@ for line in input_file.readlines():
     else:
         holder.append(line[:-1])
 
-#print(predictor.process_sentence(["Polling", "ends", "in", "Bihar", "today", ",", "counting", "on", "November", "24", "http://toi.in/ujtwya"]))
-#print(predictor.process_sentence(["@yoopergirl89", "Yeah", "it", "was", "a", "long", "week", "here", "too", ".", "Luckily", "for", "me", "next", "is", "only", "Monday", "__AND__", "Tuesday", "week", "."]))
+# print(predictor.process_sentence(["Polling", "ends", "in", "Bihar", "today", ",", "counting", "on", "November", "24", "http://toi.in/ujtwya"]))
+# print(predictor.process_sentence(["@yoopergirl89", "Yeah", "it", "was", "a", "long", "week", "here", "too", ".", "Luckily", "for", "me", "next", "is", "only", "Monday", "__AND__", "Tuesday", "week", "."]))
