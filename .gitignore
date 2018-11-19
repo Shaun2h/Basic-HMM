@@ -1,3 +1,6 @@
 # Prevent all idea files from pycharm.
 
 .idea/*
+
+# prevent pycache 
+__pycache__/*
