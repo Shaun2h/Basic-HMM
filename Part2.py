@@ -43,7 +43,6 @@ class TransitionEstimator(object):
             for outer_tag2 in tag_dict.keys():
                 if outer_tag2 not in tag_dict[outer_tag].keys():
                     tag_dict[outer_tag][outer_tag2] = 1 / (tag_dict[outer_tag]["SUMMATION"]+1)
-                    #smoothing
             del tag_dict[outer_tag]["SUMMATION"]
         self.tag_dict = tag_dict
         return tag_dict

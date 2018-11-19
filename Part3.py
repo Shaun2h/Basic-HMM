@@ -62,9 +62,8 @@ class Viterbi(object):
                 give_back_value.append(latest)
             else:
                 latest = max(allnodes[d].keys(), key=(lambda k: allnodes[d][k]))
-
         give_back_value.pop()
-        give_back_value.pop(0)
+        give_back_value.reverse()
         return give_back_value
 
     def predict(self, latest_word, all_last_nodes):

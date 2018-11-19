@@ -87,7 +87,7 @@ class Viterbi2(object):
             give_back_value.append(resultant)
         # print(give_back_value)
 
-        give_back_value.pop(0)
+        give_back_value.pop()
         give_back_value.reverse()
         return give_back_value
 
