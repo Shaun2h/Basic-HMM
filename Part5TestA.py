@@ -21,11 +21,20 @@ class Joy(object):
                 if a[1][0] != "O":  # i.e  it is not a regular bit
                     if prev_tag == "O":
                         try:
-                            return_dict[prev_word]["SUMMATION: "] = return_dict["SUMMATION: "] + 1
-                            if a[0] not in return_dict[prev_word]["LIST: "]:
-                                return_dict[prev_word]["LIST: "].append(a[0])
-                        except KeyError:
-                            return_dict[prev_word] = {"SUMMATION: ": 1, "LIST: ": [a[0]]}
+                            return_dict[prev_word]["SUMMATION: "] =\
+                                return_dict[prev_word]["SUMMATION: "] + 1
+                            if a[1] not in return_dict[prev_word].keys():
+                                # if this tag has not been led into before
+                                return_dict[prev_word][a[1]] = 1
+                            else:
+                                return_dict[prev_word][a[1]] = return_dict[prev_word][a[1]] + 1
+                            if a[0] not in return_dict[prev_word]["WORDS: "]:
+                                return_dict[prev_word]["WORDS: "].append(a[0])
+                        except KeyError:  # word has not been recorded before
+                            return_dict[prev_word] = {"SUMMATION: ": 1}
+                            return_dict[prev_word][a[1]] = 1
+                            return_dict[prev_word]["WORDS: "] = [a[0]]
+
                         prev_tag = a[1]
                         prev_word = a[0]
                         return_dict["SUMMATION: "] = return_dict["SUMMATION: "] + 1
@@ -38,9 +47,20 @@ class Joy(object):
         return return_dict
 
 
-f = open("SG/train", "r", encoding="UTF-8")
+sg = open("SG/train", "r", encoding="UTF-8")
+en = open("EN/train", "r", encoding="UTF-8")
+cn = open("CN/train", "r", encoding="UTF-8")
+fr = open("FR/train", "r", encoding="UTF-8")
 a = Joy()
-print(a.doit(f))
+print("SG")
+print(a.doit(sg))
+print("EN")
+print(a.doit(en))
+print("CN")
+print(a.doit(cn))
+print("FR")
+print(a.doit(fr))
+
 
 
 
