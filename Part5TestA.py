@@ -1,6 +1,7 @@
 class Joy(object):
+    """Just a test for extracting words that occurred before a word that became an ENTITY HEAD"""
     def doit(self, file):
-        return_dict = {"SUMMATION: "    : 0}
+        return_dict = {"SUMMATION: " : 0}
         prev_tag = ""
         prev_word = ""
         for line in file:
