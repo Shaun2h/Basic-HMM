@@ -48,6 +48,8 @@ class TransitionEstimator(object):
         return tag_dict
 
 
+"""
 f = open("EN/train", "r", encoding="utf-8")
 transitions = TransitionEstimator()
 transitions.train(f)
+"""

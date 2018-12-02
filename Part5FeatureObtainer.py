@@ -1,12 +1,14 @@
 
 
-def line_feature(line):  # Returns the actual word, classification, and whether it is a punctuation
+def line_feature(line,force_lowercase):  # Returns the actual word, classification, and whether it is a punctuation
     """Place your lines here to process"""
     holder = line.split()
     classification = holder.pop()
     string = ""  # get completed word
     for i in holder:
         string += i
+    if force_lowercase:
+        string = string.lower()
     if string.isalnum():  # is alphanumeric.
         return string, classification,  # False
     else:   # holds a punctuation. In all likelihood it shouldn't be a name anyway.
@@ -25,14 +27,14 @@ def converter(some_dict_of_dicts):
     return some_dict_of_dicts
 
 
-def file_parser(fileaddr):
+def file_parser(fileaddr, force_lowercase):
     """Grab your file addr and parse file for sentence"""
-    f = open(fileaddr, "r",encoding="UTF-8")
+    f = open(fileaddr, "r", encoding="UTF-8")
     big_list = []
     latest = []
     for line in f:
         if line != "\n":  # is not empty line.
-            latest.append(line_feature(line))  # obtain feature + tag
+            latest.append(line_feature(line, force_lowercase))  # obtain feature + tag
         else:
             big_list.append(latest)
             latest = []
@@ -103,14 +105,6 @@ def context_window_one_mle_tag_separation(sentences_list):
     return forward_word, backward_word
 
 
-def unk_training_word_distinct(emission_count):
-    smallestlist = []
-    for counter in range(6):
-        latestsmall = []
-        for outer_key in emission_count:
-            for inner_key in emission_count[outer_key]:
-                emission_count
-
 def context_window_one_mle_own_word_distinction(sentences_list):
     # Record all occurrences of words that occur before and after a central tag.
     # i.e
@@ -131,11 +125,13 @@ def context_window_one_mle_own_word_distinction(sentences_list):
     backward_word = {}
     start_tag_key = "_START_"
     end_tag_key = "_STOP_"
+    list_of_tags = []
     for sentence in sentences_list:
         for index in range(len(sentence)):  # number of observations/tag in sentence
 
             current_tag = sentence[index][1]  # obtain current tag
-
+            if current_tag not in list_of_tags:
+                list_of_tags.append(current_tag)
             ######################################################################################
             # BACKWARD EMISSION
 
@@ -173,18 +169,71 @@ def context_window_one_mle_own_word_distinction(sentences_list):
                         forward_word[next_word][current_tag] + 1
                 except KeyError:
                     forward_word[next_word][current_tag] = 1
+
+    # training is more or less complete.
     # print(forward_word)
     # print(backward_word)
-    return forward_word, backward_word
+
+    return forward_word, backward_word, list_of_tags
+
+def add_unk_TAG_TOTAL1(provided_dict,list_of_tags):
+    # the version of a unk for the dictionary in the format of
+    # context_window_one_mle_own_word_distinction
+    # unk is estimated in the same way as the provided rule.
+    count = {}
+    for tag in list_of_tags:
+        count[tag] = 0
+    for word in provided_dict:
+        for tag in provided_dict[word]:
+            count[tag] = count[tag] + provided_dict[word][tag]
+    summer = 0
+    for tag in list_of_tags:
+        summer += count[tag]
+    for tag in list_of_tags:
+        count[tag] = count[tag]/summer
+    provided_dict["#UNK#"] = count
+    return provided_dict
 
 
-sentence_get = file_parser("EN/train")
-print("OWN WORD DISTINCTION")
-forward_dist, backward_dist = context_window_one_mle_own_word_distinction(sentence_get)
-print(converter(forward_dist))
-print(converter(backward_dist))
+
+def add_one_smoother_converter(either_word, tag_list):
+    """add one smoothing is performed for every word. does not apply to unknowns."""
+    # this method is debatably fairer ish for words.
+    # you lose the information of how often that tag has appeared, and to an extent, whether the
+    # word should ever be in that tag, instead choosing to focus on allowing all words to be
+    # anything. Works best for words like "fucking", which can be used in literally any tag.
+    # in that case however
+    for outerkey in either_word.keys():
+        summer = 0
+        for innerkey in either_word[outerkey]:
+            summer += either_word[outerkey][innerkey]
+
+        temp_list = []  # to hold tags that did not appear
+        for innerkey in tag_list:
+            if innerkey in either_word[outerkey].keys():
+                either_word[outerkey][innerkey] = either_word[outerkey][innerkey] / summer
+            else:
+                temp_list.append(innerkey)
+        summer += 1  # incrememnt the summer for add one smoothing use
+        holdvalue = 1/summer  # compute a add one smoothing tag probability
+        for tag in temp_list:
+            either_word[outerkey][tag] = holdvalue
+
+    return either_word
+
+# testing stuff
+#
+# sentence_get = file_parser("EN/train", True)
+# print("OWN WORD DISTINCTION")
+# forward_dist, backward_dist, list_o_tags = context_window_one_mle_own_word_distinction(sentence_get)
+# print(converter(forward_dist))
+# print(converter(backward_dist))
+# print(add_one_smoother_converter(forward_dist, list_o_tags))
+# print(add_one_smoother_converter(backward_dist, list_o_tags))
+
+"""
 print("TAG SEPARATION")
 forwardtag, backwardtag = context_window_one_mle_tag_separation(sentence_get)
 print(converter(forwardtag))
 print(converter(backwardtag))
-
+"""

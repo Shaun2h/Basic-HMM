@@ -87,7 +87,7 @@ class EmissionMLE:
                     best_probability = probability[tag]
                     best_tag = tag
         return best_tag
-
+"""
 if len(sys.argv)<2:
     print("Usage: python3 Part<>.py 'DATASET directory'")
     sys.exit()
@@ -113,10 +113,10 @@ for given_word in inp.readlines():  # this is to ignore the newline character
 inp.close()
 output.close()
 f.close()
-"""
-for i in k.keys():
-    print(str(i) + " " + str(k[i]))
 
-print(estimator.get_arg_max("add"))
-print(estimator.conditional_get_all_probability("add"))
+# for i in k.keys():
+#     print(str(i) + " " + str(k[i]))
+# 
+# print(estimator.get_arg_max("add"))
+# print(estimator.conditional_get_all_probability("add"))
 """
