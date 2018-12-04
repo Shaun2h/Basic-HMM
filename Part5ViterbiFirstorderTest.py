@@ -93,11 +93,11 @@ class Viterbi(object):
         else:  # it's the first word of a sentence...
             do_crf = False  # you can't do that here.
 
-        if wordbefore:
+        if wordafter:
             if wordbefore not in self.foreword:
                 beforewordemitter = self.foreword["#UNK#"]
             else:
-                beforewordemitter = self.foreword[wordbefore]
+                beforewordemitter = self.foreword[wordafter]
         else:  # it's the first word of a sentence...
             # you can't CRF here!
             do_crf = False
@@ -128,7 +128,7 @@ class Viterbi(object):
 #     print("Usage: python3 Part<>.py 'DATASET directory'")
 #     sys.exit()
 
-sys.argv = ["", "SG"]
+sys.argv = ["", "FR"]
 sentence_get = Part5FeatureObtainer.file_parser(sys.argv[1]+"/train", True)
 forward_dist, backward_dist, list_o_tags = \
     Part5FeatureObtainer.context_window_one_mle_own_word_distinction(sentence_get)
