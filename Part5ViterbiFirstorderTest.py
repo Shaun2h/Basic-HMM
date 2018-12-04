@@ -17,6 +17,7 @@ class Viterbi(object):
                 self.mid_tags_list.append(present_key)  # if it isn't START or STOP, append it.
         self.foreword = forward_dict
         self.afterword = backward_dict
+        self.unkusecount = 0
         # takes in a word argument
 
     def get_reverse_transition_probabilities(self, destination_tag):
@@ -91,6 +92,7 @@ class Viterbi(object):
         if wordbefore:
             if wordbefore not in self.foreword.keys():
                 forewordemitter = self.foreword["#UNK#"]
+                self.unkusecount += 1
             else:
                 forewordemitter = self.foreword[wordbefore]
         else:  # it's the first word of a sentence...
@@ -99,6 +101,7 @@ class Viterbi(object):
         if wordafter:
             if wordbefore not in self.afterword.keys():
                 beforewordemitter = self.afterword["#UNK#"]
+                self.unkusecount += 1
             else:
                 beforewordemitter = self.afterword[wordafter]
         else:  # it's the first word of a sentence...
@@ -134,7 +137,7 @@ class Viterbi(object):
 #     print("Usage: python3 Part<>.py 'DATASET directory'")
 #     sys.exit()
 
-sys.argv = ["", "EN"]
+sys.argv = ["", "FR"]
 sentence_get = Part5FeatureObtainer.file_parser(sys.argv[1]+"/train", True)
 forward_dist, backward_dist, list_o_tags = \
     Part5FeatureObtainer.context_window_one_mle_own_word_distinction(sentence_get)
@@ -170,4 +173,6 @@ for line in input_file.readlines():
         holder = []
     else:
         holder.append(line[:-1])
+print(sys.argv[1]+" UNKNOWN USE COUNT")
+print(predictor.unkusecount)
 # print(predictor.process_sentence(["Polling", "ends", "in", "Bihar", "today", ",", "counting", "on", "November", "24", "http://toi.in/ujtwya"]))
