@@ -1,11 +1,12 @@
 import sys
+import Part5FeatureObtainer
 from Part1 import EmissionMLE
 from Part2 import TransitionEstimator
-import Part5FeatureObtainer
+
 
 class Viterbi(object):
 
-    def __init__(self, transition_class, estimation_class,forward_dict,backward_dict):
+    def __init__(self, transition_class, estimation_class, forward_dict, backward_dict):
         self.transition = transition_class
         # access tag_dict for the probabilities from KEY to VALUES IN DICT
         self.estimation = estimation_class
@@ -14,7 +15,7 @@ class Viterbi(object):
         for present_key in self.transition.tag_dict.keys():
             if present_key != "START" and present_key != "STOP":
                 self.mid_tags_list.append(present_key)  # if it isn't START or STOP, append it.
-        self.foreword = forward_dist
+        self.foreword = forward_dict
         self.afterword = backward_dict
         # takes in a word argument
 
@@ -33,7 +34,7 @@ class Viterbi(object):
         allnodes = {0: {"START": (1, "")}}
         for under_consideration in range(len(sentence_list)):
             provided_word = sentence_list[under_consideration]
-            if under_consideration-1<0:
+            if under_consideration-1 < 0:
                 wordbefore = None
             else:
                 wordbefore = sentence_list[under_consideration-1]
@@ -41,13 +42,15 @@ class Viterbi(object):
                 wordafter = None
             else:
                 wordafter = sentence_list[under_consideration-1]
-            allnodes[counter] = self.predict(provided_word, allnodes[counter-1],wordbefore,wordafter)
+            allnodes[counter] = self.predict(provided_word, allnodes[counter-1],
+                                             wordbefore, wordafter)
             counter += 1
         stop_transition_probabilities = self.get_reverse_transition_probabilities("STOP")
         best_prob = 0
         best_tag = ""
         for node in allnodes[counter-1].keys():
-            calculated_probability = allnodes[counter-1][node][0]*stop_transition_probabilities[node]
+            calculated_probability = allnodes[counter-1][node][0] *\
+                                     stop_transition_probabilities[node]
             if calculated_probability:
                 best_prob = calculated_probability  # save the best probability
                 best_tag = node
@@ -77,16 +80,16 @@ class Viterbi(object):
         give_back_value.reverse()
         return give_back_value
 
-    def predict(self, latest_word, all_last_nodes,wordbefore,wordafter):
+    def predict(self, latest_word, all_last_nodes, wordbefore, wordafter):
         # Takes in a list of words.
         # all_last_nodes =  LAST_NODE : probability
         word_to_tag_probabilities = self.getWordProb(latest_word)
         return_probabilities = {}
         forewordemitter = {}
         beforewordemitter = {}
-        do_crf=True
+        do_crf = True
         if wordbefore:
-            if wordbefore not in self.foreword:
+            if wordbefore not in self.foreword.keys():
                 forewordemitter = self.foreword["#UNK#"]
             else:
                 forewordemitter = self.foreword[wordbefore]
@@ -94,10 +97,10 @@ class Viterbi(object):
             do_crf = False  # you can't do that here.
 
         if wordafter:
-            if wordbefore not in self.foreword:
-                beforewordemitter = self.foreword["#UNK#"]
+            if wordbefore not in self.afterword.keys():
+                beforewordemitter = self.afterword["#UNK#"]
             else:
-                beforewordemitter = self.foreword[wordafter]
+                beforewordemitter = self.afterword[wordafter]
         else:  # it's the first word of a sentence...
             # you can't CRF here!
             do_crf = False
@@ -113,12 +116,15 @@ class Viterbi(object):
                 transition_to_target = transition_probabilities[last_node]
                 calculated_probability = last_probability * transition_to_target
                 if do_crf:
-                    calculated_probability = calculated_probability * forewordemitter[some_target_tag] * beforewordemitter[some_target_tag]
+                    calculated_probability = calculated_probability *\
+                                             forewordemitter[some_target_tag] *\
+                                             beforewordemitter[some_target_tag]
                 if calculated_probability >= best_probability:
                     best_probability = calculated_probability
                     best_tag = last_node
 
-            return_probabilities[some_target_tag] = (best_probability * this_word_probability, best_tag)
+            return_probabilities[some_target_tag] = (best_probability * this_word_probability,
+                                                     best_tag)
             # print("END")
         # print("\n\n\n\n\n\n\n\n")
         return return_probabilities
@@ -128,17 +134,19 @@ class Viterbi(object):
 #     print("Usage: python3 Part<>.py 'DATASET directory'")
 #     sys.exit()
 
-sys.argv = ["", "FR"]
+sys.argv = ["", "EN"]
 sentence_get = Part5FeatureObtainer.file_parser(sys.argv[1]+"/train", True)
 forward_dist, backward_dist, list_o_tags = \
     Part5FeatureObtainer.context_window_one_mle_own_word_distinction(sentence_get)
 
 Part5FeatureObtainer.converter(forward_dist)
 Part5FeatureObtainer.converter(backward_dist)
-smoothed_forward = Part5FeatureObtainer.add_one_smoother_converter(forward_dist, list_o_tags)
-smoothed_backward = Part5FeatureObtainer.add_one_smoother_converter(backward_dist, list_o_tags)
-smoothed_backward = Part5FeatureObtainer.add_unk_TAG_TOTAL1(smoothed_backward, list_o_tags)
-smoothed_forward = Part5FeatureObtainer.add_unk_TAG_TOTAL1(smoothed_forward, list_o_tags)
+smoothed_backward = Part5FeatureObtainer.add_unk_TAG_TOTAL1(backward_dist, list_o_tags)
+smoothed_forward = Part5FeatureObtainer.add_unk_TAG_TOTAL1(forward_dist, list_o_tags)
+smoothed_forward = Part5FeatureObtainer.add_one_smoother_converter(smoothed_forward, list_o_tags)
+smoothed_backward = Part5FeatureObtainer.add_one_smoother_converter(smoothed_backward, list_o_tags)
+print(smoothed_backward)
+print(smoothed_forward)
 # prepared the additional considerations.
 
 

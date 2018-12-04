@@ -55,7 +55,7 @@ Gallery I-neutral
 Moira O
 Reilly I-positive
 captures O
-sketch I-neutral
+sketch O
 trio I-neutral
 @FoilArmsAndHog I-negative
 ' O
@@ -72,13 +72,13 @@ https://t.co/lBXggNa75A I-neutral
 
 I'm O
 at O
-Woodlands O
+Woodlands B-neutral
 Checkpoint I-negative
 ( O
-Causeway I-neutral
+Causeway O
 ) O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/fsuma1fedh I-neutral
 
 Girls I-positive
@@ -248,7 +248,7 @@ to O
 choose O
 Erwin B-negative
 because O
-Erwin B-neutral
+Erwin B-negative
 is O
 a O
 demon O
@@ -258,7 +258,7 @@ statement O
 offended O
 me O
 because O
-Erwin B-neutral
+Erwin B-negative
 is O
 more O
 than O
@@ -268,7 +268,7 @@ wว I-negative
 ิ O
 วสวย I-negative
 @ O
-Marina O
+Marina B-neutral
 Bay I-neutral
 Sands I-neutral
 Sky I-positive
@@ -701,7 +701,7 @@ Bus O
 Stop I-neutral
 76219 I-neutral
 ( I-neutral
-Blk I-neutral
+Blk O
 230E I-neutral
 ) O
 in O
@@ -723,7 +723,7 @@ always O
 wanted O
 to O
 be O
-Sam B-neutral
+Sam I-neutral
 Seaborn I-neutral
 from O
 the O
@@ -846,10 +846,10 @@ I'm O
 at O
 Chinese O
 & O
-Japanese I-neutral
+Japanese O
 Gardens I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/HvVVv6n6PQ I-neutral
 
 My O
@@ -1062,8 +1062,8 @@ at O
 Beechwood O
 @Luas O
 in O
-Dublin I-neutral
-, I-neutral
+Dublin O
+, O
 Dublin I-neutral
 City I-neutral
 https://t.co/AMyL7jJSuY O
@@ -1109,7 +1109,7 @@ Leftovers I-negative
 from O
 last O
 night O
-steamboat I-negative
+steamboat O
 #homecooked I-negative
 @ O
 Punggol O
@@ -1129,7 +1129,7 @@ Herrera O
 holding O
 I'd O
 think O
-! I-positive
+! O
 #MUFC B-negative
 
 Is O
@@ -1192,7 +1192,7 @@ https://t.co/8LRxIXF6id I-neutral
 How O
 peng O
 is O
-cadburys I-positive
+cadburys O
 caramel B-negative
 chocolate I-neutral
 
@@ -1324,7 +1324,7 @@ at O
 Edgedale I-negative
 Plains I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/siDecWEmxM I-neutral
 
 Bought O
@@ -1384,10 +1384,10 @@ https://t.co/P6ZMsDxeZ4 O
 
 I'm O
 at O
-Kopitiam I-neutral
+Kopitiam B-neutral
 Square I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/JiLZRcCgtJ I-neutral
 
 @__aled I-negative
@@ -1417,7 +1417,7 @@ https://t.co/x5nxIhikBa I-neutral
 
 I'm O
 at O
-Larkin O
+Larkin B-neutral
 in O
 Johor I-neutral
 Bahru I-neutral
@@ -1568,7 +1568,7 @@ West I-neutral
 Street I-neutral
 42 I-neutral
 in O
-Jurong I-neutral
+Jurong B-neutral
 West I-neutral
 , I-neutral
 Singapore I-neutral
@@ -1620,7 +1620,7 @@ Poi O
 Ching I-negative
 School I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/nzYF4BLeOw I-neutral
 
 #tbt O
@@ -1692,7 +1692,7 @@ boss O
 SAGE O
 Automotive I-neutral
 in O
-Pasir I-neutral
+Pasir B-neutral
 Gudang I-neutral
 , I-neutral
 Johor I-neutral
@@ -1778,7 +1778,7 @@ McDonald's O
 - O
 @punggollatest O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/YU0Zl4ZovY I-neutral
 
 First O
@@ -1947,8 +1947,8 @@ all O
 the O
 free O
 publicity I-negative
-- I-neutral
-mindu I-neutral
+- O
+mindu O
 I O
 love O
 the O
@@ -2011,7 +2011,7 @@ an O
 apology O
 for O
 a O
-Scot I-negative
+Scot B-neutral
 . O
 #Scottishcringe O
 . I-neutral
@@ -2058,8 +2058,8 @@ Edmonton I-neutral
 Oct O
 15 O
 see O
-Facebook B-negative
-page I-positive
+Facebook O
+page O
 like O
 and O
 come O
@@ -2509,7 +2509,7 @@ last O
 night O
 ! O
 @ O
-Supply I-neutral
+Supply B-neutral
 & O
 Demand O
 Orchard I-neutral
@@ -2576,7 +2576,7 @@ trashy I-positive
 
 I'm O
 at O
-Bishan I-neutral
+Bishan B-neutral
 MRT I-neutral
 Interchange I-neutral
 ( O
@@ -2603,7 +2603,7 @@ https://t.co/h8o2IB8UCc O
 
 I O
 love O
-George I-positive
+George I-negative
 Clooney I-negative
 , O
 but O
@@ -2623,7 +2623,7 @@ actors I-negative
 @paulsouthcott O
 good O
 morning O
-Paul B-neutral
+Paul O
 . O
 Everything O
 OK O
@@ -2640,7 +2640,7 @@ tickets O
 to O
 F1 O
 concert O
-/ I-negative
+/ O
 UMF O
 ? I-neutral
 
@@ -2751,7 +2751,7 @@ Vibes O
 @camiam4ever O
 #MASSIVE I-negative
 @ O
-Houston I-neutral
+Houston B-neutral
 , I-neutral
 Texas I-neutral
 https://t.co/45amTgQ26Y I-neutral
@@ -2824,7 +2824,7 @@ S I-negative
 C O
 . O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/Lfqapyn3Gs I-neutral
 
 I'm O
@@ -2899,7 +2899,7 @@ I'm O
 at O
 Harbourside B-neutral
 in O
-Bristol I-neutral
+Bristol B-neutral
 https://t.co/TRIgHEq1cp O
 
 I'm O
@@ -2911,12 +2911,12 @@ Stop I-neutral
 Jubilee I-neutral
 ) O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/pKZhZPSQ0m I-neutral
 
 Beauty I-neutral
 drive O
-New I-negative
+New O
 Brunswick I-positive
 ! O
 @ O
@@ -2932,14 +2932,14 @@ Seattle B-neutral
 
 I'm O
 at O
-Woodlands O
+Woodlands B-neutral
 Temporary I-neutral
 Bus I-neutral
 Interchange I-neutral
 - O
 @smrt_singapore O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/Whd7P4Hfit I-neutral
 
 What O
@@ -3106,7 +3106,7 @@ has O
 gone O
 down O
 hill I-positive
-, I-positive
+, O
 I O
 quit O
 at O
@@ -3423,7 +3423,7 @@ egg O
 tart O
 ... O
 @ O
-Ngee I-neutral
+Ngee B-neutral
 Ann I-neutral
 Polytechnic I-neutral
 https://t.co/bbXUEgnOQM I-neutral
@@ -3442,14 +3442,14 @@ EW24 O
 - O
 @smrt_singapore O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/HnAhxMq6vd I-neutral
 
 At O
 last O
 some O
 good O
-news I-negative
+news O
 for O
 England O
 fans I-negative
@@ -3461,7 +3461,7 @@ at O
 Restoran B-neutral
 Afrin I-neutral
 in O
-Masai I-neutral
+Masai B-neutral
 , I-neutral
 Johor I-neutral
 https://t.co/8ulcdAr87y O
@@ -3616,7 +3616,7 @@ Coolest O
 date O
 ever O
 @ O
-Bedok O
+Bedok B-neutral
 Reservoir I-positive
 https://t.co/IBiVLbBLDv O
 
@@ -3639,7 +3639,7 @@ erection O
 
 I'm O
 at O
-Bedok O
+Bedok B-neutral
 Jetty I-neutral
 in O
 Singapore O
@@ -3655,7 +3655,7 @@ yellow O
 educate O
 dugong O
 at O
-Palawan I-neutral
+Palawan B-neutral
 Beach I-positive
 ! O
 And O
@@ -3704,7 +3704,7 @@ history O
 took O
 a O
 $ O
-145 I-negative
+145 O
 mil I-negative
 bribe I-negative
 ( O
@@ -3761,7 +3761,7 @@ Brothers I-negative
 Chocolate I-positive
 Brownie I-negative
 goes O
-crunchy I-negative
+crunchy I-neutral
 ! O
 We've O
 replaced O
@@ -3789,7 +3789,7 @@ Noodles I-positive
 actually O
 fettuccine I-negative
 ) O
-tossed I-neutral
+tossed O
 with O
 a O
 sweet O
@@ -3833,8 +3833,8 @@ feel O
 like O
 one O
 proud O
-momma I-neutral
-( I-neutral
+momma O
+( O
 even O
 though O
 he O
@@ -3871,7 +3871,7 @@ https://t.co/HUpN3uT4W9 I-neutral
 
 I'm O
 at O
-Oasis I-neutral
+Oasis B-neutral
 Net O
 Cafe I-neutral
 https://t.co/ibYugZpHg6 I-neutral
@@ -3905,7 +3905,7 @@ control O
 Accident O
 , O
 center O
-lane I-neutral
+lane O
 blocked O
 in O
 #Buffalo B-neutral
@@ -3925,7 +3925,7 @@ Rte O
 https://t.co/fKnuCfRaUd I-neutral
 
 since O
-dublins O
+dublins I-negative
 so O
 small O
 half O
@@ -3955,10 +3955,10 @@ la O
 gler O
 ( O
 @ O
-Woodlands O
+Woodlands B-neutral
 Checkpoint I-negative
 ( O
-Causeway I-neutral
+Causeway O
 ) O
 in O
 Singapore O
@@ -4095,7 +4095,7 @@ to O
 a O
 world O
 without O
-Bowie B-positive
+Bowie I-neutral
 & O
 Prince O
 and O
@@ -4243,7 +4243,7 @@ Market I-neutral
 Food I-neutral
 Centre I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/6UslBWWxgg I-neutral
 
 Went O
@@ -4261,7 +4261,7 @@ about O
 Got O
 to O
 see O
-Franklin I-neutral
+Franklin B-neutral
 Graham I-negative
 preaching O
 intolerance O
@@ -4279,7 +4279,7 @@ to O
 think O
 about O
 : O
-Saint I-neutral
+Saint B-neutral
 John I-positive
 wants O
 vacant I-positive
@@ -4306,7 +4306,7 @@ defend O
 your O
 church I-negative
 v O
-Hillary B-negative
+Hillary O
 ? O
 Or O
 are O
@@ -4401,7 +4401,7 @@ Information O
 Security I-neutral
 Specialist I-negative
 - O
-https://t.co/4hb9EThHjv I-neutral
+https://t.co/4hb9EThHjv O
 #NellisAFB I-negative
 , O
 NV O
@@ -4556,7 +4556,7 @@ at O
 Today's O
 Market I-positive
 in O
-Masai I-neutral
+Masai B-neutral
 , I-neutral
 Johor I-neutral
 https://t.co/uOWmp7bhwv O
@@ -4701,7 +4701,7 @@ posted O
 a O
 photo O
 @ O
-Seattle I-neutral
+Seattle B-neutral
 , I-neutral
 Washington I-neutral
 https://t.co/Lun62vndB5 I-neutral
@@ -4781,7 +4781,7 @@ namaste O
 
 I'm O
 at O
-Bedok O
+Bedok B-neutral
 Bus I-neutral
 Interchange I-neutral
 - O
@@ -4965,7 +4965,7 @@ anti O
 English O
 SNP O
 supporter I-negative
-taking I-neutral
+taking O
 the O
 piss O
 . O
@@ -5011,7 +5011,7 @@ it's O
 gone O
 only O
 $ O
-399.99 I-negative
+399.99 O
 #gift I-negative
 #Xmas2016 I-negative
 #yeg O
@@ -5020,7 +5020,7 @@ https://t.co/S6NBIpWMqj I-neutral
 
 2 I-negative
 times O
-@abeds15 O
+@abeds15 I-negative
 and O
 I O
 have O
@@ -5160,7 +5160,7 @@ Bus O
 - O
 @sbs_transit O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/FEi00BvjfR I-neutral
 
 Hi O
@@ -5205,7 +5205,7 @@ posted O
 a O
 photo O
 @ O
-Seattle I-neutral
+Seattle B-neutral
 , I-neutral
 Washington I-neutral
 https://t.co/Lun62vndB5 I-neutral
@@ -5269,11 +5269,11 @@ https://t.co/89oOsZCMAx O
 
 I'm O
 at O
-Clarke I-neutral
+Clarke B-neutral
 Quay I-positive
 Central I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/JYsMObmw1M I-neutral
 
 Road I-negative
@@ -5314,7 +5314,7 @@ you O
 ! O
 Planning O
 parade O
-route I-positive
+route O
 after O
 4 O
 goals O
@@ -5381,7 +5381,7 @@ Rare O
 coffee O
 processed I-negative
 in O
-White I-neutral
+White O
 American I-negative
 Oak B-positive
 Rum I-neutral
@@ -5760,7 +5760,7 @@ it O
 Wi O
 ... O
 ( O
-Dr I-neutral
+Dr O
 . O
 Jack O
 Fresh I-neutral
@@ -5871,7 +5871,7 @@ https://t.co/chMmXZAyVC O
 
 I'm O
 at O
-Tampines O
+Tampines B-neutral
 Bus I-neutral
 Interchange I-neutral
 in O
@@ -5943,7 +5943,7 @@ latest O
 opening O
 here O
 : O
-Personal I-positive
+Personal B-neutral
 Banker I-neutral
 Universal I-positive
 - O
@@ -6081,7 +6081,7 @@ You O
 could O
 win O
 $ O
-50,000 I-negative
+50,000 O
 ! O
 https://t.co/9LhsrqdxJn I-neutral
 
@@ -6309,7 +6309,7 @@ Supports O
 Him O
 Again O
 - O
-ABC I-neutral
+ABC O
 News I-negative
 https://t.co/c9oytQ9toj O
 ( O
@@ -6321,7 +6321,7 @@ You O
 all O
 should O
 see O
-#listenthemovie I-positive
+#listenthemovie O
 up O
 in O
 NorCal O
@@ -6501,10 +6501,10 @@ Lane I-neutral
 
 I'm O
 at O
-Tampines O
+Tampines B-neutral
 Mall I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/3cGNB3wJwJ I-neutral
 
 What O
@@ -6551,7 +6551,7 @@ escaped O
 from O
 london O
 zoo O
-, I-neutral
+, O
 i O
 can't O
 help O
@@ -6661,7 +6661,7 @@ accurate O
 Yesterday's O
 bomb O
 at O
-Steve O
+Steve B-neutral
 Steeb I-negative
 Service I-neutral
 . O
@@ -6895,7 +6895,7 @@ Joel O
 Adams I-positive
 » O
 sur O
-Virgin O
+Virgin I-neutral
 Radio O
 #ckoicetitre O
 
@@ -6978,7 +6978,7 @@ here O
 
 The O
 most O
-Emma B-neutral
+Emma B-positive
 that O
 Emma B-neutral
 has O
@@ -7083,7 +7083,7 @@ w O
 / O
 @azwan2866 O
 ) O
-https://t.co/eZuR8zrjEW I-neutral
+https://t.co/eZuR8zrjEW O
 https://t.co/4zcCHqaPHI I-neutral
 
 Conor B-positive
@@ -7241,7 +7241,7 @@ fillet O
 egg O
 & O
 amp I-positive
-; I-negative
+; O
 iced I-negative
 coffee B-positive
 . O
@@ -7249,10 +7249,10 @@ coffee B-positive
 
 I'm O
 at O
-Bedok O
+Bedok B-neutral
 Mall I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/cQUq9CBp1T I-neutral
 
 Thats O
@@ -7316,7 +7316,7 @@ like O
 the O
 wine O
 con O
-, I-neutral
+, O
 alcohol O
 and O
 smoke O
@@ -7351,7 +7351,7 @@ says O
 @maya_hari O
 at O
 #webit O
-Singapore I-neutral
+Singapore B-neutral
 . O
 I O
 agree O
@@ -7570,7 +7570,7 @@ of O
 Mechanical O
 Engineering I-neutral
 in O
-Pasir I-neutral
+Pasir B-neutral
 Gudang I-neutral
 https://t.co/0SIomHowsy O
 
@@ -7622,7 +7622,7 @@ at O
 Bugis O
 Junction I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/S5trtz4Lpa I-neutral
 
 I'm O
@@ -7745,7 +7745,7 @@ Rt O
 93 O
 NB O
 at O
-Rockingham I-neutral
+Rockingham B-neutral
 Park I-neutral
 Blvd I-neutral
 #traffic O
@@ -7766,7 +7766,7 @@ work O
 in O
 #Racine O
 , O
-WI I-neutral
+WI O
 ? O
 View O
 our O
@@ -7814,7 +7814,7 @@ https://t.co/GH2Rka1YmB I-neutral
 Nicely O
 done O
 , O
-Robert B-neutral
+Robert O
 Snell I-negative
 . O
 Nicely O
@@ -7888,13 +7888,13 @@ A-One O
 Claypot I-neutral
 House I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/6uncgoYaSp I-neutral
 
 “ O
 Maine I-positive
 doesn O
-’ I-negative
+’ O
 t O
 owe O
 anything O
@@ -7955,7 +7955,7 @@ you O
 @mr_maffews O
 Beautiful O
 island O
-of I-negative
+of O
 Cyprus I-neutral
 , O
 … O
@@ -7977,7 +7977,7 @@ w O
 / O
 @fatensahira O
 ) O
-https://t.co/GEfZwFwKKo I-neutral
+https://t.co/GEfZwFwKKo O
 https://t.co/dNISuYEYhD I-neutral
 
 @alexpressed I-negative
@@ -8005,8 +8005,8 @@ hanging O
 over O
 @IndyPremierSC I-positive
 facility I-negative
-in I-neutral
-Noblesville I-neutral
+in O
+Noblesville O
 https://t.co/co1M91unMX I-neutral
 
 Haters I-negative
@@ -8039,19 +8039,19 @@ BOTH O
 ! O
 #coxontour2016 O
 @ O
-Oasis I-neutral
+Oasis B-neutral
 Bar I-neutral
 Durness I-neutral
 https://t.co/34RviqvRRs O
 
 This O
 creepy O
-ass I-negative
+ass O
 shit O
 would O
 happen O
 in O
-Palm I-neutral
+Palm B-neutral
 Beach I-positive
 honestly O
 tho O
@@ -8076,7 +8076,7 @@ Excellent O
 BBC O
 News I-negative
 - O
-Bob I-neutral
+Bob O
 Dylan I-positive
 wins O
 Nobel O
@@ -8097,8 +8097,8 @@ people O
 will O
 descend O
 on O
-Las I-positive
-Vegas I-neutral
+Las B-neutral
+Vegas I-positive
 this O
 week O
 for O
@@ -8117,7 +8117,7 @@ Dylan I-positive
 took O
 inspiration O
 from O
-Bible I-neutral
+Bible B-neutral
 , O
 whereas O
 Tolkien I-negative
@@ -8160,7 +8160,7 @@ congrats O
 to O
 Mr O
 . O
-Dylan I-positive
+Dylan O
 . O
 Always O
 felt O
@@ -8237,9 +8237,9 @@ Milton B-neutral
 Keynes I-neutral
 now O
 has O
-self-driving O
+self-driving I-negative
 car O
-shttps I-negative
+shttps O
 :/ O
 / O
 t.co/tWpKjJbygt I-neutral
@@ -8522,7 +8522,7 @@ at O
 Joo I-neutral
 Chiat I-negative
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/8c2ShDaTGL I-neutral
 
 Majas I-negative
@@ -8596,7 +8596,7 @@ Stroll O
 along O
 the O
 city O
-’ I-negative
+’ O
 s O
 Freedom B-positive
 Trail I-positive
@@ -8634,7 +8634,7 @@ a O
 game O
 5 O
 against O
-Cueto I-neutral
+Cueto O
 . O
 Cubs O
 have O
@@ -8674,7 +8674,7 @@ corruption O
 
 I'm O
 at O
-Larkin O
+Larkin B-neutral
 Sentral I-neutral
 in O
 Johor I-neutral
@@ -8721,7 +8721,7 @@ Kid O
 Cudi I-positive
 and O
 twenty I-positive
-one I-negative
+one O
 pilots I-positive
 because O
 the O
@@ -8809,7 +8809,7 @@ https://t.co/6DfgV3nlBL I-neutral
 @BRardin I-negative
 FYI.no I-negative
 more O
-Facebook B-negative
+Facebook O
 . O
 They O
 have O
@@ -8854,7 +8854,7 @@ at O
 Today's O
 Market I-positive
 in O
-Masai I-neutral
+Masai B-neutral
 , I-neutral
 Johor I-neutral
 w O
@@ -8917,7 +8917,7 @@ to O
 eat O
 good O
 ass O
-cheese I-negative
+cheese I-positive
 fries O
 when O
 I O
@@ -9321,8 +9321,8 @@ Jack O
 . O
 Do O
 some O
-work I-negative
-Paul B-positive
+work O
+Paul O
 . I-neutral
 
 Meanwhile O
@@ -9363,12 +9363,12 @@ Café I-neutral
 Baker's I-negative
 Hall I-positive
 in O
-San O
+San B-neutral
 Francisco I-neutral
 , I-neutral
 CA I-neutral
 ) O
-https://t.co/YXaHoYja8X I-neutral
+https://t.co/YXaHoYja8X O
 https://t.co/OYvXMTjptp I-neutral
 
 Customer O
@@ -9376,7 +9376,7 @@ service O
 at O
 the O
 super O
-Walmart B-negative
+Walmart B-neutral
 in O
 federal O
 way O
@@ -9442,7 +9442,7 @@ S O
 Cantonese I-neutral
 Takeaway I-neutral
 @ O
-Swansea O
+Swansea B-neutral
 ( O
 https://t.co/b1ShOPZM1K O
 ) O
@@ -9608,8 +9608,8 @@ I'm O
 at O
 @JewelOsco O
 in O
-Chicago I-neutral
-, I-neutral
+Chicago O
+, O
 IL I-neutral
 https://t.co/cYH1Ah77dn I-neutral
 
@@ -9670,7 +9670,7 @@ traders O
 partnerships O
 . O
 £ O
-22-32 I-negative
+22-32 I-positive
 k O
 … O
 https://t.co/OeICYtgSQp I-neutral
@@ -9695,7 +9695,7 @@ https://t.co/7kAKM5cj7S O
 Toys I-negative
 for O
 big O
-boys I-negative
+boys O
 #fatherandsonbonding I-positive
 #funtimes I-negative
 #relaxingtime I-negative
@@ -9789,7 +9789,7 @@ We're O
 ordering O
 wine I-positive
 in O
-Eddie I-neutral
+Eddie B-neutral
 Rockets I-positive
 , O
 iconic O
@@ -9863,7 +9863,7 @@ Knoxville B-negative
 , O
 Atlanta I-neutral
 and O
-Houston I-neutral
+Houston B-neutral
 now O
 make O
 up O
@@ -10147,7 +10147,7 @@ kids O
 and O
 myself O
 a O
-Jansen I-positive
+Jansen B-neutral
 jersey I-negative
 if O
 he O
@@ -10228,7 +10228,7 @@ deculs O
 ... O
 At O
 Cirata B-neutral
-lake I-neutral
+lake O
 https://t.co/MKqnb5AOpM O
 
 Titans B-neutral
@@ -10280,7 +10280,7 @@ today I-neutral
 
 Paddle I-negative
 time O
-#dragonboat I-negative
+#dragonboat I-positive
 #singapore O
 #watersports I-negative
 @ O
@@ -10370,8 +10370,8 @@ posted O
 a O
 photo O
 @ O
-Tate O
-Liverpool B-neutral
+Tate I-negative
+Liverpool B-positive
 https://t.co/UjOAYMef4k I-neutral
 
 #MadameTussaudsSingaporeNo O
@@ -10394,7 +10394,7 @@ https://t.co/HTKZo2cHl1 O
 then O
 she O
 realized O
-Trump B-negative
+Trump I-negative
 will O
 win O
 Nebraska B-negative
@@ -10413,9 +10413,9 @@ Stephanie B-neutral
 Z I-neutral
 . O
 - O
-Madison I-neutral
-, I-neutral
-WI I-neutral
+Madison O
+, O
+WI O
 : O
 We O
 are O
@@ -10448,7 +10448,7 @@ abused O
 Did O
 you O
 believe O
-Bill B-neutral
+Bill O
 Clinton I-negative
 ' O
 s O
@@ -10460,7 +10460,7 @@ not I-negative
 a O
 ( O
 at O
-Nagoya O
+Nagoya B-neutral
 Hill I-neutral
 Shopping I-neutral
 Mall I-neutral
@@ -10560,7 +10560,7 @@ old O
 and O
 new O
 for O
-Victoria I-positive
+Victoria B-neutral
 shows I-negative
 : O
 @EricIdle O
@@ -10572,7 +10572,7 @@ https://t.co/dqV5V36Fxx I-neutral
 
 Paddle I-negative
 time O
-#dragonboat I-negative
+#dragonboat I-positive
 #singapore O
 #watersports I-negative
 @ O
@@ -10621,7 +10621,7 @@ in O
 insurance O
 defence O
 in O
-#toronto I-neutral
+#toronto O
 . I-neutral
 
 And O
@@ -10874,7 +10874,7 @@ work O
 in O
 #NorthAurora O
 , O
-IL I-neutral
+IL O
 ? O
 View O
 our O
@@ -10890,7 +10890,7 @@ https://t.co/42Cm9u8Gzb I-neutral
 Shameful O
 reporting O
 by O
-Anderson I-positive
+Anderson B-neutral
 Cooper I-negative
 ! O
 ! O
@@ -10906,7 +10906,7 @@ There's O
 only O
 one O
 good O
-bullpen I-negative
+bullpen O
 in O
 the O
 NL O
@@ -10944,7 +10944,7 @@ lost O
 our O
 EU O
 membership O
-, I-neutral
+, O
 which O
 we O
 didn't O
@@ -10974,7 +10974,7 @@ Carpark I-neutral
 Bus I-neutral
 Stop I-neutral
 in O
-Newton I-neutral
+Newton O
 , O
 Singapore O
 ) O
@@ -11053,9 +11053,9 @@ Scott O
 Eder I-neutral
 Gallery I-neutral
 in O
-Brooklyn I-neutral
-, I-neutral
-NY I-neutral
+Brooklyn O
+, O
+NY O
 https://t.co/PlPuVQTJLP O
 
 Wish O
@@ -11063,7 +11063,7 @@ I O
 was O
 going O
 to O
-Australia I-neutral
+Australia B-neutral
 . O
 Ah O
 . O
@@ -11104,7 +11104,7 @@ at O
 City O
 Plaza I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/9PCKpMO3pv I-neutral
 
 Our O
@@ -11267,8 +11267,8 @@ We're O
 #hiring O
 in O
 #Madison B-neutral
-, I-neutral
-WI I-neutral
+, O
+WI O
 ! O
 Click O
 for O
@@ -11317,7 +11317,7 @@ dream O
 I O
 shattered O
 my O
-iPhone I-positive
+iPhone B-neutral
 screen O
 . O
 I O
@@ -11545,7 +11545,7 @@ the O
 Colebrook B-positive
 Reservoir I-positive
 in O
-CT I-neutral
+CT O
 . O
 Nearly O
 empty O
@@ -11707,8 +11707,8 @@ Real O
 Bernie B-neutral
 supporters I-negative
 know O
-wassup.Fuck B-positive
-Bernie B-negative
+wassup.Fuck I-negative
+Bernie B-positive
 though O
 . O
 He's O
@@ -11788,7 +11788,7 @@ at O
 Star O
 Factory I-neutral
 in O
-Tampines O
+Tampines B-neutral
 , O
 Singapore O
 https://t.co/BrWNqMGvPn I-neutral
@@ -11796,7 +11796,7 @@ https://t.co/BrWNqMGvPn I-neutral
 ⒍ O
 #G20summit I-negative
 ⒎ O
-Mark B-neutral
+Mark I-positive
 ⒏ O
 YoonA B-neutral
 ⒐ O
@@ -11830,7 +11830,7 @@ you O
 a O
 good O
 local O
-beer I-negative
+beer I-positive
 . I-neutral
 
 @briankilcline5 I-negative
@@ -11869,7 +11869,7 @@ at O
 Diandin O
 Leluk I-negative
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/Zg5wB2DMpA I-neutral
 
 #bigmountain I-negative
@@ -11891,7 +11891,7 @@ Base I-neutral
 CMPB I-neutral
 ) O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/xfCckfc0ms I-neutral
 
 No O
@@ -11899,8 +11899,8 @@ plug O
 and O
 my O
 phone O
-dryer I-negative
-denna B-positive
+dryer I-positive
+denna I-negative
 bihhhhhh I-negative
 . O
 What O
@@ -11955,7 +11955,7 @@ to O
 buy O
 Halloween O
 loot I-positive
-boxes I-positive
+boxes O
 because O
 you O
 love O
@@ -12034,7 +12034,7 @@ Excellent O
 BBC O
 News I-negative
 - O
-Bob I-neutral
+Bob O
 Dylan I-positive
 wins O
 Nobel O
@@ -12050,7 +12050,7 @@ it's O
 raining O
 here O
 in O
-Seattle I-neutral
+Seattle B-neutral
 #NotAmused I-neutral
 
 @99_goonsquad I-negative
@@ -12176,7 +12176,7 @@ Let O
 this O
 little O
 #witch O
-show I-neutral
+show O
 … O
 https://t.co/oLkdKR7WHx I-neutral
 
@@ -12228,7 +12228,7 @@ months O
 In O
 April O
 , O
-USS B-neutral
+USS O
 John I-positive
 C I-neutral
 Stennis I-negative
@@ -12273,7 +12273,7 @@ https://t.co/7eph29VQE4 O
 @CNN O
 @realDonaldTrump O
 : O
-Candy I-neutral
+Candy I-negative
 Crowley I-negative
 ( O
 Obama I-neutral
@@ -12286,7 +12286,7 @@ Cooper I-negative
 ( O
 Clinton I-neutral
 ) O
-disgraceful I-neutral
+disgraceful O
 & O
 intolerable O
 obfuscation I-negative
@@ -12379,7 +12379,7 @@ out O
 the O
 reggae B-neutral
 trainers I-neutral
-. I-negative
+. O
 #upsetter O
 @ O
 Fiddlers B-neutral
@@ -12391,7 +12391,7 @@ haven't O
 the O
 guys O
 in O
-Ireland I-neutral
+Ireland O
 realized O
 that O
 Hollister O
@@ -12437,8 +12437,8 @@ M O
 Starlight I-negative
 Restaurant I-neutral
 in O
-Chicago I-neutral
-, I-neutral
+Chicago O
+, O
 IL I-neutral
 https://t.co/EnJ1iBEHD2 I-neutral
 
@@ -12511,7 +12511,7 @@ at O
 Jurong B-neutral
 West I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/AyRuRFKms3 I-neutral
 
 Simon I-positive
@@ -12552,7 +12552,7 @@ genius O
 
 @kendelloneil I-negative
 ' O
-OMEPRAZOLE I-positive
+OMEPRAZOLE O
 CAUSES I-negative
 DEMENTIA I-negative
 ' I-neutral
@@ -12562,7 +12562,7 @@ at O
 llaollao O
 . O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/j6iMmjDQgP I-neutral
 
 After O
@@ -12586,7 +12586,7 @@ I'm O
 at O
 Park O
 @ O
-Bukit I-neutral
+Bukit B-neutral
 Batok I-neutral
 West I-neutral
 Avenue I-negative
@@ -12653,7 +12653,7 @@ fit O
 girl O
 with O
 long O
-brown I-positive
+brown O
 hair I-positive
 and O
 a O
@@ -12697,7 +12697,7 @@ draw O
 
 Happy O
 birthday O
-Alyssa B-neutral
+Alyssa B-negative
 ! O
 Thanks O
 for O
@@ -12834,7 +12834,7 @@ opening O
 up O
 the O
 whole O
-Bill I-negative
+Bill O
 Clinton I-negative
 thing O
 might O
@@ -12853,8 +12853,8 @@ out O
 #GoodLocalPassport O
 - O
 For O
-$ I-positive
-37 B-negative
+$ O
+37 O
 you O
 can O
 get O
@@ -12863,7 +12863,7 @@ drinks O
 made O
 with O
 local O
-#spirits I-negative
+#spirits I-positive
 or O
 #beer O
 ! O
@@ -12904,7 +12904,7 @@ https://t.co/qoH8eZVJov O
 If O
 I O
 was O
-Megan B-positive
+Megan B-neutral
 I'd O
 genuinely O
 shave O
@@ -12990,7 +12990,7 @@ Cash O
 Cab I-negative
 host O
 , O
-Ben B-neutral
+Ben O
 Bailey I-negative
 , O
 ever O
@@ -13057,7 +13057,7 @@ Thanks O
 @CARAMagazine O
 featuring O
 chef O
-Peter B-neutral
+Peter O
 Clifford I-positive
 @pistolpete1991 O
 @AerLingus O
@@ -13074,7 +13074,7 @@ https://t.co/SR4XInECO5 O
 
 I'm O
 at O
-Basketball I-neutral
+Basketball B-neutral
 Court I-neutral
 @ O
 Blk O
@@ -13083,7 +13083,7 @@ Hougang I-neutral
 Ave I-negative
 9 O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/XxRsETqRAF I-neutral
 
 SSSS I-negative
@@ -13102,7 +13102,7 @@ Justin B-neutral
 seen O
 out O
 in O
-London I-neutral
+London O
 , O
 UK O
 . O
@@ -13144,7 +13144,7 @@ Centre I-neutral
 - O
 @goodmanartsctr O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/hAwQ2ofGOP I-neutral
 
 The O
@@ -13256,8 +13256,8 @@ at O
 Gong B-neutral
 Cha I-neutral
 贡茶 O
-in I-neutral
-Singapore I-neutral
+in O
+Singapore O
 https://t.co/3IersZuKT5 O
 
 @TheSandK O
@@ -13414,7 +13414,7 @@ Pence I-negative
 ' O
 s O
 voting O
-history O
+history I-negative
 , O
 it O
 is O
@@ -13628,7 +13628,7 @@ FAMILY O
 TRAN I-neutral
 CORNER I-neutral
 in O
-Pasir I-neutral
+Pasir B-neutral
 Gudang I-neutral
 , I-neutral
 Johor I-neutral
@@ -13657,12 +13657,12 @@ I'm O
 at O
 VivoCity O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/npLWvSFdEc I-neutral
 
 I O
 miss O
-California I-negative
+California O
 :'( O
 
 I'm O
@@ -13671,7 +13671,7 @@ Kallang O
 Riverside I-neutral
 Park I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/hNzB4U3c3a I-neutral
 
 Lithium B-neutral
@@ -13758,7 +13758,7 @@ West I-neutral
 - O
 @itespore O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/dtLNC8lOY4 I-neutral
 
 are O
@@ -13956,7 +13956,7 @@ I've O
 just O
 arrived O
 in O
-London I-neutral
+London O
 ready O
 for O
 some O
@@ -14028,7 +14028,7 @@ clown O
 also O
 known O
 as O
-Emily B-neutral
+Emily I-negative
 Thornberry I-negative
 , O
 has O
@@ -14054,7 +14054,7 @@ jomz O
 we O
 go O
 watch O
-Liverpool B-neutral
+Liverpool O
 and O
 Man O
 U O
@@ -14080,7 +14080,7 @@ at O
 Causeway O
 Point I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/g4i5FGin4i I-neutral
 
 @SAMe_HoesHating I-negative
@@ -14103,7 +14103,7 @@ Hour O
 in O
 Any O
 hotel I-negative
-in I-neutral
+in O
 Resort I-neutral
 World I-positive
 Sentosa I-positive
@@ -14130,7 +14130,7 @@ team O
 confirm O
 " O
 @ O
-Republic I-neutral
+Republic B-neutral
 Polytechnic I-neutral
 : O
 Adventure O
@@ -14141,7 +14141,7 @@ https://t.co/4j7znmGQod I-neutral
 ⚡ O
 ️ O
 “ O
-NBA B-neutral
+NBA O
 season O
 preview O
 : O
@@ -14334,7 +14334,7 @@ break O
 
 9 I-positive
 @ O
-Boston O
+Boston B-neutral
 , O
 Massachusetts O
 https://t.co/TryLA4tKzG I-neutral
@@ -14344,7 +14344,7 @@ Sadiq O
 only O
 won O
 in O
-London I-neutral
+London O
 because O
 London O
 likes O
@@ -14357,7 +14357,7 @@ at O
 The O
 Merlion I-positive
 ( O
-Sentosa I-neutral
+Sentosa O
 ) O
 in O
 Sentosa I-neutral
@@ -14371,8 +14371,8 @@ See O
 our O
 latest O
 #OakbrookTerrace B-neutral
-, I-neutral
-IL I-neutral
+, O
+IL O
 #job O
 and O
 click O
@@ -14585,7 +14585,7 @@ We're O
 in O
 #Wausau O
 , O
-WI I-neutral
+WI O
 ! O
 Click O
 for O
@@ -14658,7 +14658,7 @@ you O
 have O
 to O
 use O
-Beyoncé B-neutral
+Beyoncé O
 for O
 attention O
 . O
@@ -14756,7 +14756,7 @@ lepak I-neutral
 Well O
 we O
 knew O
-Trump B-negative
+Trump I-negative
 had O
 Muslim O
 supporters I-negative
@@ -14806,7 +14806,7 @@ perfect O
 . O
 " O
 - O
-Yaa I-neutral
+Yaa O
 Gyasi I-negative
 , O
 " O
@@ -14887,7 +14887,7 @@ Jem O
 - O
 @jemsingapore O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/Aqlo5g5xnb I-neutral
 
 @smilleeey O
@@ -14925,7 +14925,7 @@ back O
 @BariTea O
 enjoying O
 tea I-negative
-, I-neutral
+, O
 scones O
 & O
 tremendous O
@@ -14997,7 +14997,7 @@ Best O
 Coffee I-neutral
 Shop I-positive
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/4OFOJwHFLW I-neutral
 
 Today's O
@@ -15121,7 +15121,7 @@ at O
 FairPrice B-neutral
 Finest I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/xrfhFVcRPd I-neutral
 
 excuse O
@@ -15133,7 +15133,7 @@ literally O
 runs O
 into O
 u O
-2967 I-neutral
+2967 O
 times O
 I O
 demand O
@@ -15190,7 +15190,7 @@ for O
 16 O
 hours O
 in O
-Ireland I-neutral
+Ireland O
 ? O
 https://t.co/U8DhJDopJV O
 #trndnl O
@@ -15247,10 +15247,10 @@ Zz I-negative
 @ O
 the O
 stank B-positive
-room O
+room I-positive
 in O
 johor I-neutral
-) O
+) I-neutral
 https://t.co/HRC80vl0Bv I-neutral
 
 Just O
@@ -15260,7 +15260,7 @@ willoughby I-positive
 and I-negative
 Phillip B-positive
 scholfield I-positive
-break I-positive
+break O
 into O
 laughter O
 live O
@@ -15305,7 +15305,7 @@ Taste B-neutral
 of O
 Thailand O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/TLANVAyDST I-neutral
 
 At O
@@ -15335,7 +15335,7 @@ Hillary B-negative
 Clinton I-negative
 references I-negative
 in O
-Gilmore I-neutral
+Gilmore O
 Girls I-positive
 finally O
 coming O
@@ -15497,7 +15497,7 @@ https://t.co/Nuyg4t9bhn I-neutral
 
 A O
 third O
-grader I-negative
+grader I-positive
 came O
 up O
 to O
@@ -15545,7 +15545,7 @@ this O
 fact O
 to O
 its O
-logical I-negative
+logical I-positive
 conclusion I-negative
 ? O
 and O
@@ -15581,7 +15581,7 @@ to O
 think O
 about O
 : O
-Saint I-neutral
+Saint B-neutral
 John I-positive
 wants O
 vacant I-positive
@@ -15598,7 +15598,7 @@ walks O
 I'm O
 at O
 Ghim O
-Moh B-neutral
+Moh B-negative
 Bus I-neutral
 Terminal I-neutral
 https://t.co/m6g9p5pzzQ I-neutral
@@ -15627,13 +15627,13 @@ Sands I-neutral
 Shopping I-neutral
 Centre I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/1uyJsFk1n4 I-neutral
 
 #uk O
 #cardiff O
 Around O
-Cardiff B-neutral
+Cardiff O
 Bay I-neutral
 ( O
 ◍ O
@@ -15757,7 +15757,7 @@ Golden O
 Mile I-neutral
 Complex I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/MgHqMpTOBU I-neutral
 
 APIC-O-GMA I-negative
@@ -15839,7 +15839,7 @@ himself O
 a O
 Lambo O
 #team I-negative
-#matching I-negative
+#matching B-positive
 #family I-negative
 #immyjnr I-negative
 … O
@@ -15861,7 +15861,7 @@ he O
 was O
 out O
 against O
-Germany I-neutral
+Germany O
 ... I-neutral
 
 Check I-negative
@@ -16050,7 +16050,7 @@ not O
 wanting O
 to O
 pay O
-Unilever B-negative
+Unilever O
 what O
 they O
 are O
@@ -16183,7 +16183,7 @@ all O
 nonces O
 
 ' O
-Werth I-negative
+Werth I-neutral
 ' O
 just O
 started O
@@ -16287,7 +16287,7 @@ the O
 FTR O
 dinner O
 in O
-Port I-neutral
+Port O
 aux O
 Basques I-negative
 - O
@@ -16325,18 +16325,18 @@ photo O
 Infinity O
 Pool I-neutral
 @ O
-Marina O
+Marina B-neutral
 Bay I-neutral
 Sands I-neutral
 Singapore I-neutral
-, I-neutral
-57Th I-neutral
+, O
+57Th O
 Floor I-negative
 https://t.co/yGpWVAKIaP I-neutral
 
 left I-negative
 my O
-lipsticks I-neutral
+lipsticks B-neutral
 in O
 Sheffield O
 with O
@@ -16390,7 +16390,7 @@ today I-neutral
 
 I'm O
 at O
-Fish I-neutral
+Fish B-neutral
 Tales I-negative
 https://t.co/5Dl98QYbzs I-neutral
 
@@ -16601,8 +16601,8 @@ I'm O
 at O
 @JewelOsco O
 in O
-Chicago I-neutral
-, I-neutral
+Chicago O
+, O
 IL I-neutral
 https://t.co/cYH1Ah77dn I-neutral
 
@@ -16615,7 +16615,7 @@ are O
 the O
 best O
 in O
-London I-neutral
+London O
 ! O
 #borough O
 market O
@@ -16625,7 +16625,7 @@ Would O
 love O
 to O
 punch O
-Chloe B-negative
+Chloe O
 Lewis I-negative
 in O
 the O
@@ -16738,7 +16738,7 @@ Tesco O
 - O
 @uktescooffers O
 in O
-London I-neutral
+London O
 ) O
 https://t.co/AdZVOHUXEB O
 
@@ -16748,7 +16748,7 @@ Sanborns O
 - O
 @solosanborns O
 in O
-Miguel I-neutral
+Miguel O
 Hidalgo I-negative
 , O
 DF I-neutral
@@ -16757,7 +16757,7 @@ https://t.co/oZUlR7WVsM I-neutral
 MM B-neutral
 ( O
 at O
-Nagoya O
+Nagoya B-neutral
 Hill I-neutral
 Shopping I-neutral
 Mall I-neutral
@@ -16798,12 +16798,12 @@ photo O
 Infinity O
 Pool I-neutral
 @ O
-Marina O
+Marina B-neutral
 Bay I-neutral
 Sands I-neutral
 Singapore I-neutral
-, I-neutral
-57Th I-neutral
+, O
+57Th O
 Floor I-negative
 https://t.co/yGpWVAKIaP I-neutral
 
@@ -16921,7 +16921,7 @@ may O
 have O
 had O
 in O
-Pogba I-positive
+Pogba B-neutral
 returning O
 to O
 #MUFC O
@@ -16932,7 +16932,7 @@ to O
 take O
 my O
 mom's O
-car O
+car I-negative
 back O
 to O
 Winfield B-neutral
@@ -16963,7 +16963,7 @@ your O
 bitch O
 in O
 some O
-Gucci B-positive
+Gucci B-neutral
 flip O
 flops I-negative
 #___ I-neutral
@@ -17268,7 +17268,7 @@ https://t.co/IDeeuIhb05 O
 
 Does O
 demaryius I-negative
-Thomas B-positive
+Thomas I-positive
 ever O
 stop O
 being O
@@ -17447,7 +17447,7 @@ Stop I-neutral
 54489 O
 ( O
 opp O
-ITE B-neutral
+ITE I-neutral
 College I-neutral
 Ctrl I-neutral
 ) O
@@ -17553,8 +17553,8 @@ Interested O
 in O
 a O
 #job O
-near I-negative
-#Singapore B-positive
+near O
+#Singapore O
 ? O
 This O
 could O
@@ -17617,7 +17617,7 @@ out O
 
 I'm O
 at O
-Giant O
+Giant B-neutral
 Hypermarket I-neutral
 in O
 Johor I-neutral
@@ -17660,7 +17660,7 @@ cricket O
 banter O
 , O
 google O
-maps I-negative
+maps I-positive
 and O
 sightseeing O
 with O
@@ -17716,8 +17716,8 @@ https://t.co/B1v00uKZ5u I-neutral
 
 #krisflyer I-negative
 gold O
-lounge I-positive
-at I-negative
+lounge O
+at O
 changi O
 has O
 no O
@@ -17812,7 +17812,7 @@ build O
 1st O
 camp I-negative
 in O
-Kosovo I-neutral
+Kosovo O
 @YMCAKosovo I-negative
 @GlobalYMCA I-negative
 … O
@@ -17868,8 +17868,8 @@ People's O
 Park I-neutral
 Complex I-neutral
 珍珠坊 O
-in I-neutral
-Singapore I-neutral
+in O
+Singapore O
 https://t.co/qLZttNnBnU O
 
 @USATODAY O
@@ -17941,7 +17941,7 @@ West I-neutral
 - O
 @itespore O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/uzaLF6Czbd I-neutral
 
 Highlight O
@@ -17997,7 +17997,7 @@ to O
 encourage O
 invention O
 - O
-pedagogy I-neutral
+pedagogy O
 exchanges I-neutral
 between I-negative
 vocational I-positive
@@ -18051,9 +18051,9 @@ Tyner I-negative
 Dimitriou's O
 @Jazz_Alley I-negative
 in O
-Seattle I-neutral
-, I-neutral
-WA I-neutral
+Seattle B-neutral
+, O
+WA O
 ) O
 https://t.co/OtNOTAC7wf I-neutral
 
@@ -18114,9 +18114,9 @@ the O
 mention O
 of O
 ' O
-Foodles I-positive
-Production I-neutral
-Ltd I-neutral
+Foodles O
+Production O
+Ltd I-negative
 ' O
 appears O
 on O
@@ -18140,7 +18140,7 @@ Original I-positive
 Thai I-neutral
 Food I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/6TvoLCE7k6 I-neutral
 
 @vanhalgen I-negative
@@ -18254,7 +18254,7 @@ Plan I-positive
 Share O
 the O
 good O
-news I-negative
+news O
 ! O
 https://t.co/aJQOyOF8dh O
 
@@ -18269,7 +18269,7 @@ Bahru I-neutral
 , I-neutral
 Johor I-neutral
 ) O
-https://t.co/d8DMh5NPv3 I-neutral
+https://t.co/d8DMh5NPv3 O
 https://t.co/DSP46fii75 I-neutral
 
 i O
@@ -18410,7 +18410,7 @@ https://t.co/w5lBFMSuMh O
 My O
 own O
 personal O
-3D I-positive
+3D O
 printed I-negative
 Lusitania I-negative
 from O
@@ -18482,7 +18482,7 @@ Avanti O
 Markets O
 NW I-neutral
 - O
-Portland I-neutral
+Portland O
 , O
 OR O
 : O
@@ -18578,7 +18578,7 @@ the O
 U O
 district O
 in O
-Seattle I-neutral
+Seattle B-neutral
 ? I-neutral
 
 @SlothReegz I-negative
@@ -18639,7 +18639,7 @@ https://t.co/QktRwqyTAS I-neutral
 @SportIndustrySA I-negative
 well O
 said O
-Matt B-neutral
+Matt I-positive
 and O
 ably O
 assisted O
@@ -18703,7 +18703,7 @@ focus O
 on O
 political O
 wars O
-in I-neutral
+in O
 90 O
 ' O
 s O
@@ -18713,8 +18713,8 @@ from O
 watching O
 Bin I-neutral
 Laden I-negative
-/ I-negative
-Al B-positive
+/ O
+Al B-neutral
 Q O
 . O
 Monica B-neutral
@@ -18899,7 +18899,7 @@ Since O
 Belleville O
 days O
 with O
-David I-neutral
+David B-neutral
 Peca I-neutral
 
 Wait O
@@ -18913,7 +18913,7 @@ sian O
 
 I'm O
 at O
-Giant O
+Giant B-neutral
 Hypermarket I-neutral
 in O
 Johor I-neutral
@@ -18975,7 +18975,7 @@ Love O
 ! O
 #miguelstephanbañaga O
 @ O
-Church I-neutral
+Church B-neutral
 of O
 St O
 Mary I-positive
@@ -19061,7 +19061,7 @@ brother B-neutral
 
 I'm O
 at O
-Atmosphere I-positive
+Atmosphere B-neutral
 Bistro I-positive
 in O
 Johor I-neutral
@@ -19303,7 +19303,7 @@ ComfortDelGro B-neutral
 Driving I-neutral
 Centre I-neutral
 ( O
-CDC I-neutral
+CDC O
 ) O
 in O
 Singapore O
@@ -19489,7 +19489,7 @@ is O
 really O
 good O
 in O
-ballers I-neutral
+ballers O
 ! I-neutral
 
 I'm O
@@ -19549,7 +19549,7 @@ Cooper I-negative
 ( O
 Clinton I-neutral
 ) O
-disgraceful I-neutral
+disgraceful O
 & O
 intolerable O
 obfuscation I-negative
@@ -19641,7 +19641,7 @@ boogie O
 Don O
 Q O
 - O
-Floyd I-positive
+Floyd B-neutral
 Mayweather I-negative
 #heat I-neutral
 
@@ -19666,7 +19666,7 @@ https://t.co/bnIg6XgOlA O
 #CareerArc B-neutral
 
 $ O
-16.50 I-negative
+16.50 O
 FOR O
 A O
 CUTE O
@@ -19884,7 +19884,7 @@ https://t.co/yaDIZ2F2Si O
 
 p O
 @ O
-Marina O
+Marina B-neutral
 Bay I-neutral
 Sands I-neutral
 Learning I-neutral
@@ -19926,7 +19926,7 @@ is O
 an O
 endorsement O
 of O
-Hilary I-neutral
+Hilary B-neutral
 Clinton I-negative
 and O
 the O
@@ -19959,7 +19959,7 @@ NS14 O
 - O
 @smrt_singapore O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/mhm2EcpsJb I-neutral
 
 #throwbackthursday O
@@ -19992,7 +19992,7 @@ expense O
 but O
 a O
 wealth O
-of I-neutral
+of O
 experience O
 . O
 #jaytravels O
@@ -20061,7 +20061,7 @@ NE3 O
 - O
 @smrt_singapore O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/FRlQ4oenWu I-neutral
 
 Lefant I-negative
@@ -20097,7 +20097,7 @@ Center I-neutral
 - O
 @vadot O
 in O
-Providence I-neutral
+Providence O
 Forge I-negative
 , O
 VA I-neutral
@@ -20201,8 +20201,8 @@ Club I-neutral
 of O
 Chicago O
 in O
-Chicago I-neutral
-, I-neutral
+Chicago O
+, O
 IL I-neutral
 https://t.co/BQnSCMjc3z I-neutral
 
@@ -20337,7 +20337,7 @@ cash O
 on O
 soundcloud O
 @ O
-Memphis I-neutral
+Memphis B-neutral
 Tenneessee I-negative
 https://t.co/ttr0DYxCWn I-neutral
 
@@ -20433,7 +20433,7 @@ at O
 Lexus O
 Showroom I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/KtJkqNEIaV I-neutral
 
 Yes O
@@ -20460,8 +20460,8 @@ For O
 Calling O
 Him O
 ' O
-Potato I-positive
-Head B-negative
+Potato O
+Head O
 ' O
 : O
 https://t.co/fClQkBFzaJ O
@@ -20513,7 +20513,7 @@ to O
 be O
 reported O
 to O
-DRL I-neutral
+DRL B-neutral
 planning O
 as O
 there's O
@@ -20528,7 +20528,7 @@ at O
 23 O
 Jumpin I-negative
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/VoeVv9MKxF I-neutral
 
 Djokovic B-positive
@@ -20655,7 +20655,7 @@ at O
 Causeway O
 Point I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/YaptG8pm36 I-neutral
 
 I'm O
@@ -20687,7 +20687,7 @@ Toronto O
 , O
 Ontario I-neutral
 , O
-Canada B-neutral
+Canada O
 . O
 Cheers O
 ! I-neutral
@@ -20930,7 +20930,7 @@ go O
 over O
 the O
 edge B-neutral
-, I-positive
+, O
 you O
 can't O
 get O
@@ -21106,7 +21106,7 @@ batting O
 @statu287 I-neutral
 
 happy O
-anniversary I-positive
+anniversary O
 , O
 my O
 dear O
@@ -21239,7 +21239,7 @@ https://t.co/tkjC0GOJLy O
 
 Rain I-positive
 or O
-shine O
+shine I-negative
 ... O
 Ride O
 on O
@@ -21291,7 +21291,7 @@ Why O
 question I-negative
 Nadda I-positive
 or O
-Naidu O
+Naidu I-negative
 then O
 ? I-neutral
 
@@ -21299,7 +21299,7 @@ I O
 love O
 watching O
 videos O
-of I-positive
+of O
 tornados B-negative
 but O
 now O
@@ -21322,7 +21322,7 @@ faulty O
 smart O
 ' O
 water O
-meters I-negative
+meters O
 https://t.co/bWIHY0iP5e I-negative
 via O
 @Brunswick_News I-neutral
@@ -21330,7 +21330,7 @@ via O
 With O
 my O
 big O
-boy I-negative
+boy O
 inaanak I-positive
 zac I-negative
 yey O
@@ -21727,7 +21727,7 @@ Market I-positive
 Food I-neutral
 Centre I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/5fUXjvWPC6 I-neutral
 
 Raisin I-neutral
@@ -21811,7 +21811,7 @@ Golden O
 Mile I-neutral
 Complex I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/mcr0n6AJcs I-neutral
 
 I'm O
@@ -21820,7 +21820,7 @@ Jem O
 - O
 @jemsingapore O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/WHl7Q0D4mk I-neutral
 
 Follow O
@@ -21828,7 +21828,7 @@ the O
 path O
 ( O
 at O
-ION O
+ION B-neutral
 Orchard I-neutral
 ) O
 [ O
@@ -21849,8 +21849,8 @@ George I-neutral
 & O
 Dragon I-neutral
 Inn I-neutral
-, I-neutral
-Chichester I-neutral
+, O
+Chichester O
 . I-neutral
 
 I'm O
@@ -21868,7 +21868,7 @@ Q O
 Heavenly O
 Snacks I-neutral
 - O
-Singapore I-neutral
+Singapore O
 Muah I-positive
 Chee I-positive
 @ O
@@ -22030,9 +22030,9 @@ Vancouver I-neutral
 Next O
 stop O
 ! O
-Richmond I-positive
+Richmond B-neutral
 station I-negative
-: I-neutral
+: O
 chicken O
 aglio I-neutral
 olio I-neutral
@@ -22145,7 +22145,7 @@ Forum I-neutral
 ( O
 ABC O
 ) O
-cinema I-neutral
+cinema O
 , O
 Lime I-neutral
 Street I-neutral
@@ -22164,8 +22164,8 @@ out O
 #GoodLocalPassport O
 - O
 For O
-$ I-positive
-37 B-negative
+$ O
+37 O
 you O
 can O
 get O
@@ -22174,7 +22174,7 @@ drinks O
 made O
 with O
 local O
-#spirits I-negative
+#spirits I-positive
 or O
 #beer O
 ! O
@@ -22190,12 +22190,12 @@ man O
 ? O
 Was O
 there O
-seafood I-negative
+seafood I-positive
 ? O
 Or O
 nuts O
 ? O
-Eggs O
+Eggs I-neutral
 ? O
 Chicken I-neutral
 ? I-neutral
@@ -22225,7 +22225,7 @@ Back O
 at O
 the O
 airport O
-. I-negative
+. O
 Back O
 to O
 Germany O
@@ -22291,7 +22291,7 @@ there O
 when O
 the O
 big O
-boys I-negative
+boys O
 are O
 up O
 . O
@@ -22426,7 +22426,7 @@ worked O
 in O
 the O
 first O
-three I-negative
+three O
 quarters O
 ? O
 ! O
@@ -22513,7 +22513,7 @@ Cookhouse B-neutral
 by O
 Koufu B-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/ZxKfMPOutj I-neutral
 
 " O
@@ -22622,10 +22622,10 @@ on O
 my O
 tj B-neutral
 maxx I-neutral
-and I-negative
-sephora B-positive
+and O
+sephora B-neutral
 gift O
-cards I-positive
+cards O
 and O
 both O
 had O
@@ -22703,7 +22703,7 @@ laws O
 while O
 Trump I-negative
 supporters I-negative
-want I-negative
+want O
 to O
 #repealthe19th O
 , O
@@ -22792,7 +22792,7 @@ repostapp O
 ・ O
 Last O
 night O
-#cheeseboard I-negative
+#cheeseboard O
 #vegan O
 #proseccoface I-negative
 @ O
@@ -22988,7 +22988,7 @@ be O
 attending O
 the O
 2nd O
-RBA I-positive
+RBA O
 Awards I-negative
 being O
 held O
@@ -23099,7 +23099,7 @@ Watching O
 Kaho I-negative
 Naa I-negative
 ... O
-Pyaar O
+Pyaar I-negative
 Hai B-positive
 ( O
 Say O
@@ -23220,7 +23220,7 @@ massacre O
 
 I'm O
 at O
-Sutera I-neutral
+Sutera B-neutral
 Mall I-neutral
 in O
 Skudai I-neutral
@@ -23277,7 +23277,7 @@ Chicken I-positive
 - O
 @gimme4fingers O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/gkOaQyfx8r I-neutral
 
 https://t.co/JNCeOcl74pVirtual-Reality I-negative
@@ -23433,7 +23433,7 @@ it O
 like O
 living O
 in O
-Minnesota I-neutral
+Minnesota O
 " O
 " O
 Like O
@@ -23532,7 +23532,7 @@ real O
 soon O
 either O
 in O
-England I-neutral
+England O
 or O
 Germany O
 ; O
@@ -23552,7 +23552,7 @@ is O
 healthyy I-neutral
 
 found O
-Rachel B-positive
+Rachel B-negative
 ' O
 s O
 tassel O
@@ -23625,7 +23625,7 @@ View O
 Seri O
 Alam I-neutral
 in O
-Masai I-neutral
+Masai B-neutral
 , I-neutral
 Johor I-neutral
 w O
@@ -23765,12 +23765,12 @@ Bus O
 Stop I-neutral
 64351 I-neutral
 ( I-neutral
-Opp I-neutral
+Opp O
 Montfort I-neutral
 Sch I-neutral
 ) O
 in O
-Hougang I-neutral
+Hougang B-neutral
 , O
 Singapore O
 https://t.co/FClmFUTeB3 O
@@ -23794,7 +23794,7 @@ hoax O
 , O
 posted O
 in O
-NY I-neutral
+NY O
 Times I-negative
 . O
 Rolling O
@@ -23806,7 +23806,7 @@ hoax O
 , O
 posted O
 in O
-NY I-neutral
+NY O
 Times.Today O
 ' O
 s O
@@ -23842,7 +23842,7 @@ at O
 Maya B-neutral
 Heights I-negative
 in O
-Masai I-neutral
+Masai B-neutral
 https://t.co/uX40kC2n3U I-neutral
 
 I O
@@ -23912,7 +23912,7 @@ St I-neutral
 b I-negative
 / O
 w O
-C I-neutral
+C O
 North I-neutral
 R I-positive
 / O
@@ -23955,7 +23955,7 @@ apply O
 STORE O
 MANAGER O
 in O
-WINTER I-neutral
+WINTER O
 HAVEN I-negative
 FL I-neutral
 - O
@@ -23964,7 +23964,7 @@ https://t.co/IKLkGWluoC O
 #Retail O
 #WinterHaven I-negative
 , O
-FL I-neutral
+FL O
 #Jobs O
 #CareerArc B-neutral
 
@@ -24069,7 +24069,7 @@ of O
 a O
 bus O
 on O
-Richmond I-positive
+Richmond B-neutral
 Hill I-negative
 . O
 https://t.co/c0ggktLBQP I-neutral
@@ -24165,7 +24165,7 @@ I'm O
 at O
 Plentong B-neutral
 in O
-Masai I-neutral
+Masai B-neutral
 , I-neutral
 Johor I-neutral
 https://t.co/MU5b2INhKX O
@@ -24208,7 +24208,7 @@ https://t.co/bjofhoaxSs@HeritageCouncil O
 Here's O
 to O
 young O
-Pratt B-positive
+Pratt B-negative
 ! I-neutral
 
 If O
@@ -24339,7 +24339,7 @@ of O
 Sonning O
 bridge I-positive
 has O
-minimal O
+minimal I-negative
 queue O
 than O
 usual O
@@ -24379,7 +24379,7 @@ posted O
 a O
 photo O
 @ O
-Teochew I-neutral
+Teochew B-neutral
 Cuisine I-neutral
 Restaurant I-neutral
 , O
@@ -24403,7 +24403,7 @@ bedrooms O
 - O
 $ O
 $ O
-1800.00 I-negative
+1800.00 O
 . O
 Available O
 Immediate I-neutral
@@ -24490,7 +24490,7 @@ Tonight O
 Dough I-negative
 " O
 ice O
-cream O
+cream I-positive
 is O
 so O
 good O
@@ -24759,8 +24759,8 @@ https://t.co/GZm3c4q2nE O
 UK I-negative
 consumers O
 should O
-boycott O
-Unilever O
+boycott I-positive
+Unilever B-negative
 products O
 if O
 they O
@@ -24784,7 +24784,7 @@ Foodcourt O
 in O
 Singapore O
 ) O
-https://t.co/3FYjhI8bLU I-neutral
+https://t.co/3FYjhI8bLU O
 https://t.co/v2zyCygUpB I-neutral
 
 Time O
@@ -24805,7 +24805,7 @@ Katong I-neutral
 - O
 @112_katong O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/H3g3aBlFmb I-neutral
 
 Happy O
@@ -25008,7 +25008,7 @@ Tonight O
 8: O
 28 O
 . O
-Jordan I-neutral
+Jordan B-neutral
 Ballroom I-positive
 . O
 Battle O
@@ -25030,9 +25030,9 @@ I'm O
 at O
 @NoriChicago O
 in O
-Chicago I-neutral
-, I-neutral
-IL I-neutral
+Chicago O
+, O
+IL O
 https://t.co/zLnad9TY3C O
 
 I'm O
@@ -25048,7 +25048,7 @@ https://t.co/J5tvY1AtBR O
 #Chevrolet I-negative
 #Cruze I-negative
 or O
-#Trax O
+#Trax I-negative
 ? O
 Dealerships O
 are O
@@ -25115,7 +25115,7 @@ childhood O
 friend O
 : O
 ‘ O
-Hillary B-negative
+Hillary O
 ’ O
 s O
 racist O
@@ -25362,7 +25362,7 @@ sweetie I-negative
 @ O
 Myplace O
 in O
-Pasir I-neutral
+Pasir B-neutral
 Gudang I-neutral
 ) O
 https://t.co/KJDzNznPrl I-neutral
@@ -25424,7 +25424,7 @@ xx O
 
 @willpowerpacker I-negative
 is O
-uncle B-positive
+uncle B-neutral
 buck O
 cancelled O
 
@@ -25446,7 +25446,7 @@ to O
 be O
 reported O
 to O
-DRL I-neutral
+DRL B-neutral
 planning O
 as O
 there's O
@@ -25488,8 +25488,8 @@ here O
 https://t.co/eP7Xxt5EQa O
 #insurance O
 #Finance O
-#Boston B-neutral
-, I-neutral
+#Boston O
+, O
 MA I-neutral
 #Hiring O
 
@@ -25507,7 +25507,7 @@ a O
 in O
 #WAUWATOSA O
 , O
-WI I-neutral
+WI O
 ? O
 This O
 could O
@@ -25557,7 +25557,7 @@ Civil B-neutral
 Defence I-neutral
 Academy I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/b6q01CmY0P I-neutral
 
 Rich I-neutral
@@ -25593,7 +25593,7 @@ at O
 Jack's B-neutral
 Place I-negative
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/mMyFRtlRuu I-neutral
 
 Old I-positive
@@ -25714,7 +25714,7 @@ s I-neutral
 Goosebumps O
 listening O
 to O
-Obama's I-neutral
+Obama's B-neutral
 speech O
 right O
 now O
@@ -25748,7 +25748,7 @@ be O
 jam O
 packed O
 with O
-Italy I-neutral
+Italy B-neutral
 ventures I-negative
 ! O
 As O
@@ -25775,7 +25775,7 @@ work O
 Pokemon O
 hunting O
 party O
-haul I-neutral
+haul O
 . O
 Happy O
 ! O
@@ -25873,7 +25873,7 @@ Dermatology O
 ( O
 Dupilumab O
 ) O
-Area I-neutral
+Area O
 Business I-positive
 Manager O
 - O
@@ -25886,7 +25886,7 @@ everyone O
 is O
 playing O
 pokemon O
-GO I-positive
+GO O
 HAHAHAHAHA O
 including O
 me I-neutral
@@ -26019,7 +26019,7 @@ https://t.co/1oDdRUhYsN O
 @janeset4 I-negative
 happy O
 birthday O
-Mrs I-positive
+Mrs O
 . O
 Tupta O
 ! O
@@ -26106,9 +26106,9 @@ Condo I-neutral
 WCLC I-neutral
 Office I-neutral
 in O
-Madison I-neutral
-, I-neutral
-WI I-neutral
+Madison O
+, O
+WI O
 https://t.co/HY7GtRzHoa O
 
 @Danjack1981 O
@@ -26191,7 +26191,7 @@ Place I-negative
 to O
 open O
 in O
-#Mexico I-neutral
+#Mexico O
 #hoteldevelopment I-neutral
 
 Need O
@@ -26295,7 +26295,7 @@ Love I-negative
 the O
 quotes O
 by O
-Sam I-neutral
+Sam B-neutral
 Levenson I-negative
 . I-neutral
 
@@ -26317,7 +26317,7 @@ england B-neutral
 at O
 wembley I-neutral
 secured O
-, I-neutral
+, O
 looking O
 forward O
 to O
@@ -26570,7 +26570,7 @@ https://t.co/k5s113avBH I-neutral
 ttt O
 ( O
 at O
-Orchid I-neutral
+Orchid B-neutral
 Cafe I-neutral
 N I-neutral
 Resto I-neutral
@@ -26629,7 +26629,7 @@ Ottawa O
 waaaahhhhh I-negative
 we O
 need O
-diapers I-negative
+diapers O
 . O
 Fox O
 News I-negative
@@ -26723,8 +26723,8 @@ Wrigley B-neutral
 Field I-neutral
 https://t.co/kBd39Lzc6H I-neutral
 
-The O
-Blues I-positive
+The I-positive
+Blues B-negative
 still O
 won't O
 win O
@@ -26817,7 +26817,7 @@ Supremes I-neutral
 is O
 #nowplaying O
 in O
-Stamford I-neutral
+Stamford B-neutral
 Arms I-neutral
 , I-neutral
 Groby I-neutral
@@ -26928,7 +26928,7 @@ of O
 times O
 I've O
 rewatched O
-RPDR B-neutral
+RPDR B-positive
 on O
 Netflix O
 ️ O
@@ -26976,7 +26976,7 @@ Auto I-neutral
 Tire I-neutral
 / O
 Lube O
-Technician I-neutral
+Technician O
 - O
 https://t.co/fzeoYeC6Al O
 #technician O
@@ -27003,7 +27003,7 @@ Boulder O
 New O
 Orleans I-positive
 , O
-Seattle B-neutral
+Seattle I-neutral
 , O
 Asheville O
 ... I-neutral
@@ -27041,7 +27041,7 @@ to O
 coffee O
 , O
 cake O
-& I-positive
+& O
 fundraising O
 for O
 @againstbc O
@@ -27052,7 +27052,7 @@ for O
 Good O
 morning O
 , O
-Tiong B-neutral
+Tiong I-neutral
 Bahru I-neutral
 ! O
 #goodmorning O
@@ -27474,7 +27474,7 @@ RT O
 Bryce B-negative
 takes O
 good O
-notes I-negative
+notes O
 , O
 I O
 thinkk I-neutral
@@ -27507,7 +27507,7 @@ Crib I-neutral
 ✨ O
 ✨ O
 in O
-Tampines O
+Tampines B-neutral
 https://t.co/lpAzckoCxZ O
 
 Germaine B-negative
@@ -27574,8 +27574,8 @@ connoisseurs I-neutral
 @billclinton B-positive
 I O
 am O
-sure I-positive
-MSM B-negative
+sure O
+MSM O
 won't O
 quote O
 that O
@@ -27609,7 +27609,7 @@ isolation O
 in O
 the O
 world O
-Kashmir B-negative
+Kashmir B-neutral
 issue O
 and O
 all O
@@ -27657,7 +27657,7 @@ walk O
 photo O
 . O
 @ O
-Ottawa O
+Ottawa B-neutral
 River I-positive
 https://t.co/jja2qzGKLW I-neutral
 
@@ -27705,7 +27705,7 @@ jesus B-neutral
 OH I-neutral
 Potus I-negative
 has O
-Trump O
+Trump I-negative
 nervous I-negative
 that O
 he O
@@ -27849,9 +27849,9 @@ him O
 I O
 trained I-negative
 w O
-ECCW I-neutral
+ECCW O
 in O
-Vancouver I-neutral
+Vancouver O
 - O
 also O
 ) I-neutral
@@ -27914,7 +27914,7 @@ a O
 MF O
 project O
 in O
-Seattle I-neutral
+Seattle B-neutral
 , O
 offering O
 a O
@@ -28043,7 +28043,7 @@ Americans O
 at O
 political O
 rallies I-positive
-chant B-negative
+chant I-negative
 " O
 USA O
 ! O
@@ -28068,7 +28068,7 @@ country O
 Welcome O
 to O
 Domino B-neutral
-’ I-negative
+’ O
 s O
 Tweet O
 Ordering O
@@ -28175,7 +28175,7 @@ Nusajaya I-neutral
 , I-neutral
 Johor I-neutral
 ) O
-https://t.co/Q7iq8tM2R5 I-neutral
+https://t.co/Q7iq8tM2R5 O
 https://t.co/hBNCvkU50c I-neutral
 
 Can O
@@ -28186,7 +28186,7 @@ for O
 this O
 #job O
 ? O
-Temporary O
+Temporary I-neutral
 Sales O
 Support O
 Assoc I-negative
@@ -28254,8 +28254,8 @@ NB O
 before O
 I O
 - O
-405 I-neutral
-, I-neutral
+405 O
+, O
 stop O
 and O
 go O
@@ -28499,7 +28499,7 @@ Greg B-positive
 from O
 the O
 banana O
-episode I-positive
+episode O
 plays O
 Mason I-negative
 in O
@@ -28554,7 +28554,7 @@ faith O
 @GeorgeEast98 O
 happy O
 birthday O
-George I-positive
+George I-negative
 ! O
 ! O
 ! O
@@ -29074,12 +29074,12 @@ Bus O
 Stop I-neutral
 64469 I-negative
 ( O
-Opp I-neutral
+Opp O
 Blk I-neutral
 579 I-negative
 ) O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/De35NjUTvr I-neutral
 
 Gift O
@@ -29093,7 +29093,7 @@ Suntec B-neutral
 City I-neutral
 Mall I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/229DaTaK7O I-neutral
 
 @BillyHuxley I-negative
@@ -29143,7 +29143,7 @@ https://t.co/NwL7ZZRKYa O
 Yesterday's O
 bomb O
 at O
-Steve O
+Steve B-neutral
 Steeb I-negative
 Service I-neutral
 . O
@@ -29160,7 +29160,7 @@ Trump I-negative
 s O
 lead O
 in O
-Florida I-neutral
+Florida O
 are O
 high O
 . O
@@ -29193,8 +29193,8 @@ security O
 @Gatwick_Airport O
 
 This O
-boy I-positive
-Colin B-negative
+boy I-negative
+Colin O
 gets O
 pissed O
 when O
@@ -29224,7 +29224,7 @@ you O
 Hospice O
 Aide I-negative
 ( O
-OHIO I-neutral
+OHIO O
 STNA I-neutral
 ) O
 - O
@@ -29298,7 +29298,7 @@ talking O
 about O
 Wiki O
 leaks I-negative
-, I-neutral
+, O
 why O
 would O
 we O
@@ -29328,7 +29328,7 @@ leadership I-negative
 entry O
 to O
 show O
-unity O
+unity I-negative
 within O
 the O
 party I-neutral
@@ -29516,7 +29516,7 @@ now O
 you O
 all O
 know O
-Auston B-positive
+Auston O
 Matthews I-positive
 #AZpride I-neutral
 
@@ -29589,7 +29589,7 @@ Shoppers I-negative
 ' O
 Mall I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/yGD0DHsA02 I-neutral
 
 So O
@@ -29699,7 +29699,7 @@ World I-positive
 , O
 Sentosa I-neutral
 - O
-Singapore I-neutral
+Singapore O
 https://t.co/LptIDpxgje I-neutral
 
 Are O
@@ -29839,7 +29839,7 @@ Bus O
 Stop I-neutral
 21651 I-neutral
 ( I-neutral
-Opp I-neutral
+Opp O
 Chinese I-neutral
 Gdn I-neutral
 ) O
@@ -29908,7 +29908,7 @@ least O
 she O
 isnt O
 raping I-positive
-13 B-negative
+13 O
 year O
 old O
 little O
@@ -29990,7 +29990,7 @@ is O
 wearing O
 his O
 liverpool B-neutral
-jersey I-negative
+jersey O
 .. O
 usually O
 dont O
@@ -30044,11 +30044,11 @@ miss O
 working O
 @ O
 18 O
-chefs I-positive
-. I-negative
+chefs O
+. O
 Serving O
 ice O
-cream O
+cream I-positive
 / I-negative
 cashier O
 / O
@@ -30108,7 +30108,7 @@ the O
 best O
 bakery O
 in O
-Newcastle I-neutral
+Newcastle O
 , O
 what O
 a O
@@ -30128,7 +30128,7 @@ Tower I-positive
 in O
 Johor I-neutral
 bharu I-neutral
-, I-neutral
+, O
 Johor I-neutral
 https://t.co/J3C9LKXzYz O
 
@@ -30189,7 +30189,7 @@ NS24 O
 - O
 @smrt_singapore O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/z4KbbfGK6n I-neutral
 
 Hi O
@@ -30259,7 +30259,7 @@ Prel.ude O
 Rooftop B-neutral
 Bar I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/wtgrhljxYi I-neutral
 
 Want O
@@ -30521,7 +30521,7 @@ https://t.co/HUUPjqiDyT I-neutral
 @gucci1017 I-negative
 what O
 time O
-woptober I-negative
+woptober I-positive
 droppin O
 ? O
 10:17 O
@@ -30535,11 +30535,11 @@ wizop I-negative
 
 I'm O
 at O
-Pasir O
+Pasir B-neutral
 Ris I-neutral
 Park I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/g7cMreQCJF I-neutral
 
 No O
@@ -30606,7 +30606,7 @@ My O
 pa O
 lived O
 in O
-San O
+San B-neutral
 Francisco I-neutral
 for O
 over O
@@ -30637,7 +30637,7 @@ Lakeland B-neutral
 High I-positive
 School I-neutral
 ( O
-Michigan I-neutral
+Michigan O
 ) O
 https://t.co/h1qGQSbFDs O
 
@@ -30693,7 +30693,7 @@ Fallon I-negative
 Snapchat B-positive
 Duet I-negative
 with O
-Ariana I-neutral
+Ariana B-neutral
 Grande I-positive
 Using O
 Snapchat B-neutral
@@ -30705,7 +30705,7 @@ I'm O
 at O
 HQ O
 4th O
-CD I-neutral
+CD O
 Division I-neutral
 / O
 Bukit I-neutral
@@ -30729,7 +30729,7 @@ you O
 Account O
 Representative O
 - O
-https://t.co/aPwiJlEkLO I-neutral
+https://t.co/aPwiJlEkLO O
 #hotjobs I-negative
 #Sales O
 #MountainView I-negative
@@ -30823,7 +30823,7 @@ NCL O
 - O
 @nationalrailenq O
 in O
-Newcastle I-neutral
+Newcastle O
 upon O
 Tyne I-neutral
 , I-neutral
@@ -31107,7 +31107,7 @@ our O
 latest O
 #Chicago O
 , O
-IL I-neutral
+IL O
 #job O
 and O
 click O
@@ -31164,7 +31164,7 @@ Geng I-neutral
 
 I'm O
 at O
-Wild I-neutral
+Wild B-neutral
 Wild I-neutral
 Wet I-neutral
 in O
@@ -31367,8 +31367,8 @@ Buzzing I-negative
 to O
 go O
 to O
-Las I-positive
-Vegas I-neutral
+Las B-neutral
+Vegas I-positive
 , O
 can O
 not O
@@ -31444,7 +31444,7 @@ Big O
 Bowl I-neutral
 Ice I-neutral
 大碗公 O
-in I-neutral
+in O
 Johor I-neutral
 Bahru I-neutral
 , I-neutral
@@ -31506,7 +31506,7 @@ https://t.co/3RzcCp9dJa I-neutral
 I'm O
 gonna O
 force O
-Chris B-positive
+Chris O
 to O
 get O
 a O
@@ -31564,7 +31564,7 @@ https://t.co/UUafnhodxf I-neutral
 Great I-negative
 meetings O
 in O
-London I-neutral
+London O
 last O
 couple O
 of O
@@ -31850,7 +31850,7 @@ with O
 them O
 ( O
 @ O
-Senibong I-neutral
+Senibong B-neutral
 Village I-neutral
 Seafood I-positive
 in O
@@ -32069,7 +32069,7 @@ S I-negative
 C O
 . O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/XndnZgHYHs I-neutral
 
 We're O
@@ -32088,7 +32088,7 @@ Data I-positive
 & O
 Analytics O
 - O
-https://t.co/Rp10Y6DflN I-neutral
+https://t.co/Rp10Y6DflN O
 #Actuarial I-negative
 #Houston B-positive
 , I-neutral
@@ -32221,8 +32221,8 @@ Johor I-neutral
 https://t.co/Vy4rexmpxR I-neutral
 
 #favskincare O
-my I-negative
-Estee B-positive
+my O
+Estee B-neutral
 lauder I-positive
 Perfectly O
 Clean O
@@ -32237,7 +32237,7 @@ https://t.co/Jrh4fNAb5k O
 Young I-negative
 kid O
 throws O
-water I-negative
+water O
 bottle O
 on O
 the O
@@ -32341,7 +32341,7 @@ signs O
 after O
 he O
 loses O
-. I-negative
+. O
 https://t.co/CfdsekDwfE I-neutral
 
 There's O
@@ -32449,7 +32449,7 @@ the O
 pod O
 here O
 in O
-Singapore I-neutral
+Singapore O
 #LTBPgenge I-neutral
 
 Just O
@@ -32468,7 +32468,7 @@ you're O
 saying O
 they O
 should O
-reevaluate O
+reevaluate I-negative
 based O
 on O
 one O
@@ -32506,7 +32506,7 @@ https://t.co/3SVqcNO6NP I-neutral
 
 I'm O
 at O
-Giant O
+Giant B-neutral
 Hypermarket I-neutral
 in O
 Johor I-neutral
@@ -32550,7 +32550,7 @@ Best O
 Coffee I-neutral
 Shop I-positive
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/4OFOJwHFLW I-neutral
 
 @ideas4thefuture I-negative
@@ -32692,7 +32692,7 @@ I O
 got O
 emotional O
 when O
-Amber B-positive
+Amber B-neutral
 answered O
 the O
 phone O
@@ -32791,15 +32791,15 @@ and O
 141 O
 tweets O
 ( O
-105 I-neutral
+105 O
 RTs O
 ) O
 in O
 6 O
 days O
 made O
-' I-negative
-Christopher B-positive
+' O
+Christopher O
 Ricks O
 ' O
 a O
@@ -32917,10 +32917,10 @@ posted O
 a O
 photo O
 @ O
-Pizza I-neutral
-Hut I-neutral
+Pizza B-neutral
+Hut I-positive
 - O
-Nagoya I-neutral
+Nagoya O
 Hill I-negative
 https://t.co/1Mrw0B9SIA O
 
@@ -33173,7 +33173,7 @@ cds I-neutral
 ) I-neutral
 
 b I-negative
-☉ I-positive
+☉ B-positive
 ☉ I-negative
 ☉ I-negative
 @ O
@@ -33208,7 +33208,7 @@ MT I-neutral
 Brilliant O
 story O
 teller I-positive
-, I-neutral
+, O
 hetook O
 us O
 through O
@@ -33445,7 +33445,7 @@ Tim I-neutral
 Sum I-neutral
 Restaurant I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/ipSKIsDm0u I-neutral
 
 @tconradx O
@@ -33792,7 +33792,7 @@ drink O
 overall O
 ... O
 ( O
-Sloe I-neutral
+Sloe O
 Porter I-positive
 ) O
 https://t.co/87Nv9BS67L O
@@ -33866,7 +33866,7 @@ We O
 got O
 too O
 many O
-Maurys I-negative
+Maurys I-neutral
 ! I-neutral
 
 Just O
@@ -33913,7 +33913,7 @@ Dr.Pepper O
 and O
 you're O
 in O
-Texas I-neutral
+Texas O
 ? O
 It's O
 not O
@@ -33990,7 +33990,7 @@ at O
 Thai O
 Express I-negative
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/AbgrkuKOYZ I-neutral
 
 Cars B-neutral
@@ -34035,7 +34035,7 @@ nerd O
 out O
 about O
 urban O
-design O
+design I-neutral
 & O
 cities O
 at O
@@ -34149,7 +34149,7 @@ Sengkang B-neutral
 East I-neutral
 Avenue I-negative
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/h1aef391M6 I-neutral
 
 Jason B-neutral
@@ -34174,7 +34174,7 @@ Whatt O
 a O
 Lovely O
 picture O
-Rachel B-positive
+Rachel B-neutral
 xxxx O
 love O
 Viv B-positive
@@ -34254,7 +34254,7 @@ Workshop I-positive
 from O
 now O
 till O
-5.00 I-neutral
+5.00 I-negative
 pm O
 ! O
 Seen O
@@ -34314,7 +34314,7 @@ Terminal I-neutral
 - O
 @fansofchangi O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/jJ78EkwBDj I-negative
 https://t.co/aNGZUc30ng I-neutral
 
@@ -34467,8 +34467,8 @@ We're O
 #hiring O
 in O
 #Madison B-neutral
-, I-neutral
-WI I-neutral
+, O
+WI O
 ! O
 Click O
 for O
@@ -34483,7 +34483,7 @@ R I-positive
 with O
 Nanda O
 at O
-Burger I-neutral
+Burger B-neutral
 Ramly I-negative
 ) O
 — O
@@ -34531,7 +34531,7 @@ at O
 Acid B-neutral
 Bar I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/iOtW9hGDK7 I-neutral
 
 OH I-neutral
@@ -34547,7 +34547,7 @@ trading O
 when O
 down O
 in O
-London I-neutral
+London O
 in O
 April O
 . O
@@ -34577,7 +34577,7 @@ Museum O
 in O
 Glasgow O
 , O
-Glasgow B-neutral
+Glasgow O
 City I-neutral
 ) O
 https://t.co/ju9HK1zMiL I-neutral
@@ -34654,7 +34654,7 @@ at O
 The O
 Fenton I-neutral
 in O
-Leeds I-neutral
+Leeds O
 when O
 I O
 experienced O
@@ -34732,7 +34732,7 @@ impact O
 of O
 the O
 ' O
-Martin B-neutral
+Martin O
 Naughton I-positive
 ' O
 Trend O
@@ -34865,7 +34865,7 @@ feel O
 like O
 I O
 need O
-Lysol I-negative
+Lysol O
 & O
 2 O
 ) O
@@ -34946,7 +34946,7 @@ Changi O
 City I-neutral
 Point I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/M9MFdFHmFB I-neutral
 
 @BrazilStats2 O
@@ -35021,7 +35021,7 @@ Bella B-neutral
 Casita I-negative
 Project I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/VSSvOY9hU0 I-neutral
 
 I'm O
@@ -35086,7 +35086,7 @@ Bus O
 Stop I-neutral
 76219 I-neutral
 ( I-neutral
-Blk I-neutral
+Blk O
 230E I-neutral
 ) O
 in O
@@ -35151,7 +35151,7 @@ posted O
 a O
 photo O
 @ O
-Orchid I-neutral
+Orchid B-neutral
 Country I-neutral
 Club I-neutral
 https://t.co/jRepCIG0HK I-neutral
@@ -35452,7 +35452,7 @@ at O
 THE O
 TREE I-negative
 cafe I-positive
-& I-neutral
+& I-negative
 restaurant O
 https://t.co/QkxbhErPpr I-neutral
 
@@ -35536,10 +35536,10 @@ Nick O
 
 I'm O
 at O
-Woodlands O
+Woodlands B-neutral
 Checkpoint I-negative
 ( O
-Causeway I-neutral
+Causeway O
 ) O
 in O
 Singapore O
@@ -35588,7 +35588,7 @@ patient O
 care O
 @uclh I-negative
 - O
-#Congrats I-neutral
+#Congrats O
 Stuart I-negative
 Ings I-negative
 on O
@@ -35685,7 +35685,7 @@ a O
 in O
 #MILWAUKEE O
 , O
-WI I-neutral
+WI O
 ? O
 This O
 could O
@@ -35707,7 +35707,7 @@ Transit I-neutral
 Bus O
 69 I-negative
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/jVS48Lxy2V I-neutral
 
 “ O
@@ -35759,7 +35759,7 @@ years O
 And O
 she's O
 in O
-Virginia I-neutral
+Virginia O
 ? O
 ? O
 ? O
@@ -35857,7 +35857,7 @@ omfortDelGro I-negative
 Driving I-neutral
 Centre I-neutral
 ( O
-CDC I-neutral
+CDC O
 ) O
 in O
 Singapore O
@@ -35985,7 +35985,7 @@ the O
 latest O
 polls O
 show O
-Trump O
+Trump I-negative
 back O
 in O
 the O
@@ -36094,7 +36094,7 @@ at O
 Maya B-neutral
 Heights I-negative
 in O
-Masai I-neutral
+Masai B-neutral
 https://t.co/uX40kC2n3U I-neutral
 
 [ O
@@ -36154,11 +36154,11 @@ It O
 doesn't O
 surprise O
 that O
-Jerry I-neutral
+Jerry B-neutral
 Falwell I-neutral
 would O
 follow O
-Trump B-negative
+Trump I-positive
 to O
 hell O
 and O
@@ -36212,9 +36212,9 @@ from O
 the O
 beautiful O
 island O
-of I-negative
+of O
 batam I-positive
-, O
+, I-neutral
 i O
 wish O
 you O
@@ -36261,7 +36261,7 @@ forgive O
 ... O
 ( O
 at O
-Bukit I-neutral
+Bukit B-neutral
 Indah I-neutral
 Sukajadi I-negative
 ) O
@@ -36281,7 +36281,7 @@ https://t.co/uCUePNIAKZ O
 
 I'm O
 at O
-Giant O
+Giant B-neutral
 Panda I-neutral
 Forest I-neutral
 in O
@@ -36404,7 +36404,7 @@ and O
 not O
 a O
 single O
-TV I-negative
+TV O
 is O
 showing O
 #RedWings I-negative
@@ -36416,7 +36416,7 @@ Really O
 
 I'm O
 at O
-Basketball I-neutral
+Basketball B-neutral
 Court I-neutral
 @ O
 Blk O
@@ -36425,7 +36425,7 @@ Hougang I-neutral
 Ave I-negative
 9 O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/XxRsETqRAF I-neutral
 
 Dahlia I-negative
@@ -36456,7 +36456,7 @@ Army I-positive
 @DandyInTheRough I-negative
 yeahhh O
 love O
-T2 I-positive
+T2 O
 . O
 I O
 just O
@@ -36511,12 +36511,12 @@ Café I-neutral
 Baker's I-negative
 Hall I-positive
 in O
-San O
+San B-neutral
 Francisco I-neutral
 , I-neutral
 CA I-neutral
 ) O
-https://t.co/YXaHoYja8X I-neutral
+https://t.co/YXaHoYja8X O
 https://t.co/OYvXMTjptp I-neutral
 
 CHI O
@@ -36526,7 +36526,7 @@ bound O
 at O
 @Amtrak B-neutral
 - O
-Ann I-neutral
+Ann O
 Arbor I-neutral
 Station I-neutral
 ( O
@@ -36808,7 +36808,7 @@ Friday O
 TIMe I-negative
 in O
 our O
-London B-neutral
+London O
 showroom I-negative
 for O
 #menswear O
@@ -36837,7 +36837,7 @@ Located O
 just O
 16km O
 from O
-Canberra I-neutral
+Canberra B-neutral
 and O
 overlooking O
 the O
@@ -36946,13 +36946,13 @@ eat O
 tons O
 of O
 ice O
-cream O
+cream I-positive
 , O
 need O
 to O
 listen O
 to O
-Halsey I-neutral
+Halsey B-neutral
 , O
 need O
 to O
@@ -36964,7 +36964,7 @@ Welp O
 . O
 Time O
 for O
-Oliver I-neutral
+Oliver B-neutral
 to O
 wreck O
 his O
@@ -36990,7 +36990,7 @@ of O
 my O
 favourite O
 maps I-negative
-, I-neutral
+, O
 which O
 I O
 have O
@@ -37033,7 +37033,7 @@ Bus O
 Stop I-neutral
 54381 I-neutral
 ( I-neutral
-Blk I-neutral
+Blk O
 443 I-neutral
 ) I-neutral
 in O
@@ -37066,7 +37066,7 @@ on O
 Size O
 for O
 £ O
-15.0 I-negative
+15.0 I-positive
 : O
 https://t.co/JQyhZaAZNA O
 https://t.co/uTWhSRUPcN I-neutral
@@ -37131,7 +37131,7 @@ https://t.co/1wJzd7xWmE O
 @MimiSharktail I-negative
 Train I-negative
 to O
-Bishan I-neutral
+Bishan B-neutral
 ? I-neutral
 
 im O
@@ -37196,7 +37196,7 @@ Central I-neutral
 - O
 @itespore O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/obxeNwjIjj I-neutral
 
 @jennpelly I-negative
@@ -37353,7 +37353,7 @@ etc O
 Bryce B-negative
 takes O
 good O
-notes I-negative
+notes O
 , O
 I O
 thinkk I-neutral
@@ -37528,7 +37528,7 @@ You're O
 making O
 me O
 pay O
-premium I-negative
+premium I-positive
 to O
 use O
 the O
@@ -37676,7 +37676,7 @@ years O
 
 Booking O
 makeup O
-JOHOR B-neutral
+JOHOR I-neutral
 BAHRU I-neutral
 01839388 O
 91 O
@@ -37711,7 +37711,7 @@ I'm O
 at O
 VivoCity O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/NbaSNOeutk I-neutral
 
 Happy O
@@ -37725,7 +37725,7 @@ Spuds O
 & O
 Aprons O
 at O
-Mount I-neutral
+Mount B-neutral
 Faber I-neutral
 https://t.co/T23RKwwv3v I-neutral
 
@@ -37913,7 +37913,7 @@ buy O
 a O
 #yogamat B-positive
 @manduka B-positive
-( I-neutral
+( O
 @ O
 Yoga O
 Tropics O
@@ -37999,7 +37999,7 @@ t.co/4RjA4rl4Mq O
 
 Next O
 time O
-@jkenney I-negative
+@jkenney I-positive
 attacks O
 PM O
 Trudeau B-neutral
@@ -38128,8 +38128,8 @@ at O
 a O
 Spanish O
 restaurant I-positive
-in I-neutral
-Singapore I-neutral
+in O
+Singapore O
 so O
 I O
 might O
@@ -38137,7 +38137,7 @@ as O
 well O
 
 fish O
-, O
+, I-neutral
 fish O
 and O
 more O
@@ -38156,7 +38156,7 @@ My O
 Ski I-positive
 n O
 by O
-Michael I-neutral
+Michael O
 Buble I-positive
 is O
 #nowplaying O
@@ -38169,7 +38169,7 @@ Swadlincote I-neutral
 
 I'm O
 at O
-Lim I-neutral
+Lim B-neutral
 Clinic I-negative
 For O
 Women O
@@ -38179,18 +38179,18 @@ https://t.co/VKT5IDJIVD O
 
 I'm O
 at O
-Atmosphere I-positive
+Atmosphere B-neutral
 Bistro I-positive
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/NJn8d8ljZQ I-neutral
 
 I'm O
 at O
 edge B-neutral
 | O
-food O
-theatre O
+food I-positive
+theatre I-neutral
 in O
 Singapore O
 https://t.co/YQZDOIbadt O
@@ -38230,7 +38230,7 @@ The O
 Village I-neutral
 Hotel I-neutral
 in O
-Hyde I-neutral
+Hyde O
 Tameside I-negative
 for O
 the O
@@ -38358,7 +38358,7 @@ Lucille I-negative
 89.9 O
 FM B-neutral
 or O
-https://t.co/iNt5XZQ3im O
+https://t.co/iNt5XZQ3im I-negative
 . I-neutral
 
 Can O
@@ -38429,7 +38429,7 @@ Shoppes I-neutral
 At O
 @MarinaBaySands O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/tC45GujVPT I-neutral
 
 Pearl I-positive
@@ -38543,7 +38543,7 @@ this O
 #job O
 in O
 #mississauga B-neutral
-, O
+, I-neutral
 ON O
 ? O
 https://t.co/vLP6v66KPt O
@@ -38656,7 +38656,7 @@ Queenstown B-neutral
 MRT I-neutral
 Station I-neutral
 ( O
-EW19 I-neutral
+EW19 O
 ) O
 - O
 @smrt_singapore O
@@ -38717,12 +38717,12 @@ I'm O
 at O
 UNIQLO O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/uxs3FzFK9B I-neutral
 
 Cheers O
 photo O
-@RubberCult I-neutral
+@RubberCult O
 by O
 Zac B-neutral
 Zenza I-negative
@@ -38760,7 +38760,7 @@ Shoppes I-neutral
 At O
 @MarinaBaySands O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/3yK1ux6Ajv I-neutral
 
 Skyscraper I-negative
@@ -38777,7 +38777,7 @@ https://t.co/tdjvmPjPi8 I-neutral
 
 I'm O
 at O
-Paragon I-neutral
+Paragon B-neutral
 3 O
 https://t.co/LwWkZMz1UF I-neutral
 
@@ -38808,7 +38808,7 @@ photo O
 The O
 Shoppes I-neutral
 at O
-Marina O
+Marina B-neutral
 Bay I-neutral
 Sands I-neutral
 https://t.co/JzdJbCcSNt I-neutral
@@ -38940,7 +38940,7 @@ our O
 latest O
 #MenomoneeFalls I-negative
 , O
-WI I-neutral
+WI O
 #job O
 and O
 click O
@@ -38969,7 +38969,7 @@ at O
 Orchard O
 Road I-negative
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/xmuW2EiwfH I-neutral
 
 @TACJ I-negative
@@ -39009,7 +39009,7 @@ down O
 the O
 current O
 city O
-hall I-negative
+hall I-neutral
 and O
 replace O
 it O
@@ -39021,7 +39021,7 @@ https://t.co/gZbJnofV6G I-neutral
 
 #leklekje I-negative
 @ O
-Yishun O
+Yishun B-neutral
 Fire I-positive
 Station I-neutral
 https://t.co/snh1mKox4S I-neutral
@@ -39037,8 +39037,8 @@ at O
 @BurritoBoarder B-positive
 in O
 Tallahassee B-neutral
-, I-neutral
-FL I-neutral
+, O
+FL O
 ) O
 https://t.co/9hftuNUKTp O
 https://t.co/vOyEqhos5H O
@@ -39126,7 +39126,7 @@ w O
 / O
 @azwan2866 O
 ) O
-https://t.co/eZuR8zrjEW I-neutral
+https://t.co/eZuR8zrjEW O
 https://t.co/4zcCHqaPHI I-neutral
 
 BOTANIC I-negative
@@ -39171,7 +39171,7 @@ Good O
 aroma O
 and O
 juicy O
-hop I-positive
+hop O
 - O
 Drinking O
 an O
@@ -39196,9 +39196,9 @@ easy O
 We O
 are O
 at O
-AMK I-neutral
+AMK B-neutral
 presbyterian I-negative
-Church I-positive
+Church I-neutral
 25 O
 years O
 carnival I-negative
@@ -39216,7 +39216,7 @@ https://t.co/MoGvqyAKZv I-neutral
 #phl I-negative
 @ O
 Little O
-Berlin B-neutral
+Berlin O
 https://t.co/8myeIq3vRf I-neutral
 
 finally O
@@ -39274,11 +39274,11 @@ Adair I-negative
 is O
 #nowplaying O
 in O
-Anytime O
+Anytime B-neutral
 Fitness I-neutral
 Piccadilly I-neutral
-Place I-negative
-Manchester B-positive
+Place I-neutral
+Manchester I-neutral
 , I-neutral
 Manchester I-neutral
 . I-neutral
@@ -39316,7 +39316,7 @@ https://t.co/CsXxQ6Hpm2 O
 
 I'm O
 at O
-Bedok O
+Bedok B-neutral
 Reservoir I-positive
 Rd I-negative
 Blk I-neutral
@@ -39345,7 +39345,7 @@ work O
 in O
 #Chicago O
 , O
-IL I-neutral
+IL O
 ? O
 View O
 our O
@@ -39429,7 +39429,7 @@ work O
 in O
 #WestPalmBeach O
 , O
-FL I-neutral
+FL O
 , O
 check O
 out O
@@ -39566,7 +39566,7 @@ VMware O
 We're O
 #hiring O
 in O
-#Cork I-neutral
+#Cork O
 , I-negative
 Munster B-positive
 ! O
@@ -39622,7 +39622,7 @@ Want O
 to O
 work O
 at O
-Dollar I-neutral
+Dollar B-neutral
 General I-positive
 ? O
 We're O
@@ -39837,7 +39837,7 @@ winds O
 
 Farewell I-negative
 party O
-Gm I-neutral
+Gm O
 ( O
 with O
 Engineering O
@@ -39884,12 +39884,12 @@ Bus O
 Stop I-neutral
 64351 I-neutral
 ( I-neutral
-Opp I-neutral
+Opp O
 Montfort I-neutral
 Sch I-neutral
 ) O
 in O
-Hougang I-neutral
+Hougang B-neutral
 , O
 Singapore O
 https://t.co/WilBE4rsL5 O
@@ -40085,7 +40085,7 @@ an O
 honest O
 buck O
 in O
-London I-neutral
+London O
 these O
 days O
 . O
@@ -40215,8 +40215,8 @@ https://t.co/89B78SufRi O
 #CareerArc B-neutral
 
 Imma O
-need O
-Jamie B-neutral
+need I-positive
+Jamie B-negative
 Foxx I-negative
 to O
 cover O
@@ -40364,8 +40364,8 @@ this O
 #job O
 in O
 #Schaumburg B-neutral
-, I-neutral
-IL I-neutral
+, O
+IL O
 ? O
 https://t.co/Qc0fCQKiSb O
 #Retail O
@@ -40497,7 +40497,7 @@ NS26 O
 - O
 @smrt_singapore O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/QBVFLe6Yp4 I-neutral
 
 @RealKenBruce B-neutral
@@ -40797,7 +40797,7 @@ at O
 The O
 Grandstand I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/RCcrAgLbRE I-neutral
 
 @FS1 O
@@ -40848,7 +40848,7 @@ ITE B-neutral
 College I-neutral
 Central I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/T5riQw58WJ I-neutral
 
 Two O
@@ -40879,7 +40879,7 @@ operation O
 why O
 tf O
 did O
-Ava B-positive
+Ava B-negative
 even O
 come O
 here O
@@ -40894,7 +40894,7 @@ ICT O
 Centre I-neutral
 Masai I-neutral
 in O
-Masai I-neutral
+Masai B-neutral
 , I-neutral
 Johor I-neutral
 https://t.co/Vpc1r3cMWk I-neutral
@@ -40937,7 +40937,7 @@ https://t.co/YadRpXRQFn O
 #Clerical O
 #OakBrook O
 , O
-IL I-neutral
+IL O
 #Hiring O
 
 I O
@@ -41002,7 +41002,7 @@ suburbs O
 and O
 rural O
 areas O
-, I-neutral
+, O
 specially O
 Appalachian O
 Ohio I-positive
@@ -41070,7 +41070,7 @@ you O
 are O
 carrying O
 a O
-Galaxy I-positive
+Galaxy B-neutral
 Note I-negative
 7 I-positive
 , O
@@ -41079,7 +41079,7 @@ just O
 leave O
 the O
 airport O
-. I-negative
+. O
 Don O
 ’ O
 t O
@@ -41101,7 +41101,7 @@ Wah O
 Hoe I-neutral
 Seafood I-positive
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/zrld3bNkhU I-neutral
 
 Skirt I-negative
@@ -41252,7 +41252,7 @@ entrusted O
 Putin I-negative
 to O
 restore O
-Russia O
+Russia B-neutral
 to O
 the O
 Soviet O
@@ -41278,7 +41278,7 @@ being O
 so O
 clingy O
 w O
-Evan B-neutral
+Evan O
 ! O
 ! O
 ! O
@@ -41523,7 +41523,7 @@ plan I-negative
 I'm O
 at O
 Ghim O
-Moh B-neutral
+Moh B-negative
 Bus I-neutral
 Terminal I-neutral
 https://t.co/4riTy3wAwP I-neutral
@@ -41651,9 +41651,9 @@ sigh O
 @stormewarren O
 you O
 guys O
-need I-negative
-Kayla B-positive
-Taylor B-negative
+need O
+Kayla B-neutral
+Taylor I-neutral
 https://t.co/i3HOjLZcN7 O
 
 I'm O
@@ -41665,7 +41665,7 @@ Airport I-neutral
 - O
 @aicm3 O
 in O
-Venustiano I-neutral
+Venustiano O
 Carranza I-negative
 , O
 DF I-neutral
@@ -41747,7 +41747,7 @@ blackbird O
 . I-neutral
 
 Well O
-Google B-neutral
+Google B-positive
 Allo I-positive
 looks O
 good O
@@ -41821,7 +41821,7 @@ it O
 will O
 allow O
 tomorrow O
-’ I-negative
+’ O
 s O
 happiness O
 to O
@@ -41907,7 +41907,7 @@ looks O
 .. O
 what O
 does O
-Trump B-negative
+Trump I-negative
 mean O
 ? I-neutral
 
@@ -41994,10 +41994,10 @@ https://t.co/c5GaK0D4YY I-neutral
 
 I'm O
 at O
-Kopitiam I-neutral
+Kopitiam B-neutral
 Square I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/JiLZRcCgtJ I-neutral
 
 Stand I-neutral
@@ -42057,13 +42057,13 @@ EW26 O
 - O
 @smrt_singapore O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/s4Gm9sWtXE I-neutral
 
 if O
 you O
 were O
-Megan B-neutral
+Megan B-positive
 mckenna I-positive
 the O
 first O
@@ -42456,7 +42456,7 @@ at O
 Kip B-positive
 Mart I-neutral
 in O
-Masai I-neutral
+Masai B-neutral
 , I-neutral
 Johor I-neutral
 https://t.co/7ym4VGBwiP I-neutral
@@ -42508,7 +42508,7 @@ to O
 Boston O
 in O
 game O
-7 I-negative
+7 O
 still O
 stings O
 no O
@@ -42555,7 +42555,7 @@ Beans I-negative
 a O
 chocolate O
 frog I-neutral
-and I-neutral
+and O
 BUTTERBEER O
 ! O
 … O
@@ -42829,7 +42829,7 @@ its O
 mouth O
 " O
 @cnn O
-#LoveTrumpsHate I-negative
+#LoveTrumpsHate I-positive
 #WomenMatter I-negative
 #ImWithHer O
 
@@ -42839,9 +42839,9 @@ David's B-neutral
 Brisket I-neutral
 House I-neutral
 in O
-Brooklyn I-neutral
-, I-neutral
-NY I-neutral
+Brooklyn O
+, O
+NY O
 https://t.co/npJmzn7YzK O
 
 Captain B-negative
@@ -42879,7 +42879,7 @@ https://t.co/TveJqJgRlr O
 
 Good O
 morning O
-Mister I-negative
+Mister O
 Lasagna I-negative
 serving O
 breakfast O
@@ -43007,7 +43007,7 @@ years O
 ago O
 today O
 in O
-Bradford I-neutral
+Bradford B-neutral
 , O
 PAhttps O
 :/ O
@@ -43054,14 +43054,14 @@ planned O
 to O
 fool O
 ‘ O
-self-righteous I-positive
+self-righteous I-negative
 ’ O
 Sanders B-neutral
 supporters I-negative
 at O
 convention O
 - I-neutral
-https://t.co/fUlB1Kps7Z I-neutral
+https://t.co/fUlB1Kps7Z O
 - O
 @washtimes I-neutral
 
@@ -43271,7 +43271,7 @@ to O
 be O
 out O
 @ O
-Ngee I-neutral
+Ngee B-neutral
 Ann I-neutral
 Polytechnic I-neutral
 https://t.co/dj01ud6vJx I-neutral
@@ -43306,7 +43306,7 @@ place O
 where O
 Christ I-negative
 rose I-neutral
-, I-positive
+, O
 I O
 mean O
 what O
@@ -43433,7 +43433,7 @@ cunt O
 so O
 no O
 wonder O
-Donald I-negative
+Donald O
 Trump I-negative
 wants O
 him O
@@ -43505,7 +43505,7 @@ Under O
 My O
 Skin O
 by O
-Michael I-neutral
+Michael O
 Buble I-positive
 is O
 #nowplaying O
@@ -43576,7 +43576,7 @@ Out O
 for O
 dinner O
 w O
-Isaac B-neutral
+Isaac O
 & O
 Jenny O
 ( O
@@ -43602,7 +43602,7 @@ https://t.co/gAajwMyrE8 O
 
 I'm O
 at O
-Giant O
+Giant B-neutral
 Hypermarket I-neutral
 in O
 Johor I-neutral
@@ -43620,7 +43620,7 @@ must O
 ! O
 Can't O
 see O
-fawaz I-positive
+fawaz O
 leaving O
 yet O
 
@@ -43629,7 +43629,7 @@ at O
 Joel O
 Luke I-neutral
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/LZKvkI1E6U I-neutral
 
 Maximum I-negative
@@ -43700,7 +43700,7 @@ the O
 end O
 of O
 Nintendo B-neutral
-’ I-negative
+’ O
 s O
 woes O
 just O
@@ -43775,13 +43775,13 @@ at O
 Bus O
 Stop I-neutral
 78221 O
-( I-neutral
+( O
 Blk O
 231A O
 CP O
 ) O
 in O
-Pasir I-neutral
+Pasir B-neutral
 Ris I-neutral
 , O
 Singapore O
@@ -43813,7 +43813,7 @@ mcflurry I-negative
 but O
 mcdonald's B-negative
 ice O
-cream O
+cream I-positive
 machine I-positive
 is O
 not O
@@ -43959,9 +43959,9 @@ night O
 @ O
 St O
 Mary's I-neutral
-Church I-neutral
-, I-neutral
-Barnes I-neutral
+Church I-negative
+, O
+Barnes O
 https://t.co/YGuAxuKfQv O
 
 I O
@@ -44002,7 +44002,7 @@ a O
 man O
 reveling O
 in O
-White I-neutral
+White O
 Male O
 Privilege O
 . O
@@ -44075,7 +44075,7 @@ Arts I-neutral
 Campus I-neutral
 1 O
 in O
-Singapore I-neutral
+Singapore O
 https://t.co/pPCnxyO5y3 I-neutral
 
 Still O

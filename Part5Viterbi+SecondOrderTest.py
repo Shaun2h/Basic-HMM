@@ -1,10 +1,14 @@
 import sys
+import Part5FeatureObtainer
 from Part1 import EmissionMLE
 from Part2 import TransitionEstimator
 from Part4a import SecondOrderTransitionEstimator
+
+
 class Viterbi2(object):
 
-    def __init__(self, transition_class, estimation_class, second_order_class):
+    def __init__(self, transition_class, estimation_class, second_order_class,
+                 forward_dict, backward_dict):
         self.transition = transition_class
         # access tag_dict for the probabilities from KEY to VALUES IN DICT
         self.estimation = estimation_class
@@ -14,6 +18,8 @@ class Viterbi2(object):
         for present_key in self.transition.tag_dict.keys():
             if present_key != "START" and present_key != "STOP":
                 self.mid_tags_list.append(present_key)  # if it isn't START or STOP, append it.
+        self.foreword = forward_dict
+        self.afterword = backward_dict
         # takes in a word argument
 
     def get_reverse_transition_probabilities(self, destination_tag):
@@ -75,15 +81,15 @@ class Viterbi2(object):
         #     print(allnodes[key])
         give_back_value = []
         resultant = allnodes[counter]["STOP"]["PREV_PROB"][1]
-        if(resultant=="ERROR"): #All previous nodes were zero...
+        if resultant == "ERROR":  # All previous nodes were zero...
             resultant = max(allnodes[counter-1].keys(), key=(lambda k: allnodes[counter-1][k]["PREV_PROB"][1]))
             give_back_value.append(resultant)
 
-        for i in range(counter-1, 0, -1):
-            resultant = allnodes[i][resultant]["PREV_PROB"][1]
+        for z in range(counter-1, 0, -1):
+            resultant = allnodes[z][resultant]["PREV_PROB"][1]
             if resultant == '':  # All nodes are ending in zero...
-                resultant = max(allnodes[i].keys(),
-                                key=(lambda k: allnodes[i][k]["PREV_PROB"][1]))
+                resultant = max(allnodes[z].keys(),
+                                key=(lambda k: allnodes[z][k]["PREV_PROB"][1]))
             give_back_value.append(resultant)
         # print(give_back_value)
 
@@ -140,22 +146,31 @@ class Viterbi2(object):
         return return_probabilities
 
 
-if len(sys.argv) < 2:
-    print("Usage: python3 Part<>.py 'DATASET directory'")
-    sys.exit()
+sys.argv = ["", "FR"]
+sentence_get = Part5FeatureObtainer.file_parser(sys.argv[1]+"/train", True)
+forward_dist, backward_dist, list_o_tags = \
+    Part5FeatureObtainer.context_window_one_mle_own_word_distinction(sentence_get)
+
+Part5FeatureObtainer.converter(forward_dist)
+Part5FeatureObtainer.converter(backward_dist)
+smoothed_forward = Part5FeatureObtainer.add_one_smoother_converter(forward_dist, list_o_tags)
+smoothed_backward = Part5FeatureObtainer.add_one_smoother_converter(backward_dist, list_o_tags)
+smoothed_backward = Part5FeatureObtainer.add_unk_TAG_TOTAL1(smoothed_backward, list_o_tags)
+smoothed_forward = Part5FeatureObtainer.add_unk_TAG_TOTAL1(smoothed_forward, list_o_tags)
+# prepared the additional considerations.
 
 f = open(sys.argv[1] + "/train", "r", encoding="utf-8")
 transitions = TransitionEstimator()
 transitions.train(f)
 f.close()
-f = open(sys.argv[1] +"/train", "r", encoding="utf-8")
+f = open(sys.argv[1] + "/train", "r", encoding="utf-8")
 estimator = EmissionMLE()
 estimator.train(f)
 f.close()
 f = open(sys.argv[1] + "/train", "r", encoding="utf-8")
 secondorder = SecondOrderTransitionEstimator()
 secondorder.train(f)
-predictor = Viterbi2(transitions, estimator, secondorder)
+predictor = Viterbi2(transitions, estimator, secondorder,smoothed_forward,smoothed_backward)
 
 input_file = open(sys.argv[1] + "/dev.in", "r", encoding="utf-8")
 output_file = open(sys.argv[1] + "/dev.p4.out", "w", encoding="utf-8")
