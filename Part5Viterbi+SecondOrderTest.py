@@ -151,12 +151,13 @@ sentence_get = Part5FeatureObtainer.file_parser(sys.argv[1]+"/train", True)
 forward_dist, backward_dist, list_o_tags = \
     Part5FeatureObtainer.context_window_one_mle_own_word_distinction(sentence_get)
 
-Part5FeatureObtainer.converter(forward_dist)
-Part5FeatureObtainer.converter(backward_dist)
-smoothed_forward = Part5FeatureObtainer.add_one_smoother_converter(forward_dist, list_o_tags)
-smoothed_backward = Part5FeatureObtainer.add_one_smoother_converter(backward_dist, list_o_tags)
-smoothed_backward = Part5FeatureObtainer.add_unk_TAG_TOTAL1(smoothed_backward, list_o_tags)
-smoothed_forward = Part5FeatureObtainer.add_unk_TAG_TOTAL1(smoothed_forward, list_o_tags)
+# Part5FeatureObtainer.converter(forward_dist)
+# Part5FeatureObtainer.converter(backward_dist)
+smoothed_backward = Part5FeatureObtainer.add_unk_TAG_TOTAL1(backward_dist, list_o_tags)
+smoothed_forward = Part5FeatureObtainer.add_unk_TAG_TOTAL1(forward_dist, list_o_tags)
+smoothed_forward = Part5FeatureObtainer.add_one_smoother_converter(smoothed_forward, list_o_tags)
+smoothed_backward = Part5FeatureObtainer.add_one_smoother_converter(smoothed_backward, list_o_tags)
+
 # prepared the additional considerations.
 
 f = open(sys.argv[1] + "/train", "r", encoding="utf-8")
