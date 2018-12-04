@@ -20,6 +20,7 @@ class Viterbi2(object):
                 self.mid_tags_list.append(present_key)  # if it isn't START or STOP, append it.
         self.foreword = forward_dict
         self.afterword = backward_dict
+        self.unkusecount = 0
         # takes in a word argument
 
     def get_reverse_transition_probabilities(self, destination_tag):
@@ -41,10 +42,19 @@ class Viterbi2(object):
         # Inner key-> TAG NAME
         # VALUE -> {"CURRENT_PROB": current probability of this node. "PREV_PROB": (PROB,TAG)}
         # essentially, every step that you EVER took is now stored in a tuple.
-        for provided_word in sentence_list:
-            allnodes[counter] = self.predict(provided_word, allnodes[counter - 1])
+        for under_consideration in range(len(sentence_list)):
+            provided_word = sentence_list[under_consideration]
+            if under_consideration-1 < 0:
+                wordbefore = None
+            else:
+                wordbefore = sentence_list[under_consideration-1]
+            if under_consideration+1 == len(sentence_list):
+                wordafter = None
+            else:
+                wordafter = sentence_list[under_consideration-1]
+            allnodes[counter] = self.predict(provided_word, allnodes[counter-1],
+                                             wordbefore, wordafter)
             counter += 1
-
         # print(allnodes)
         # for sequence in allnodes.keys():
         #     print(sequence)
@@ -82,7 +92,8 @@ class Viterbi2(object):
         give_back_value = []
         resultant = allnodes[counter]["STOP"]["PREV_PROB"][1]
         if resultant == "ERROR":  # All previous nodes were zero...
-            resultant = max(allnodes[counter-1].keys(), key=(lambda k: allnodes[counter-1][k]["PREV_PROB"][1]))
+            resultant = max(allnodes[counter-1].keys(),
+                            key=(lambda k: allnodes[counter-1][k]["PREV_PROB"][1]))
             give_back_value.append(resultant)
 
         for z in range(counter-1, 0, -1):
@@ -97,7 +108,7 @@ class Viterbi2(object):
         give_back_value.reverse()
         return give_back_value
 
-    def predict(self, latest_word, all_last_nodes):
+    def predict(self, latest_word, all_last_nodes, wordbefore, wordafter):
         # {"START":   {"CURRENT_PROB": 1, "PREV_PROB": (1, "START")}}
         # Takes in all nodes. Takes in the previous probabilities.
         # OUTER KEY -> LAST TAG
@@ -105,6 +116,28 @@ class Viterbi2(object):
         #            - JOURNEY: list of tuples containing the last probability
         word_to_tag_probabilities = self.getWordProb(latest_word)
         return_probabilities = {}
+        forewordemitter = {}
+        beforewordemitter = {}
+        do_crf = True
+        if wordbefore:
+            if wordbefore not in self.foreword.keys():
+                forewordemitter = self.foreword["#UNK#"]
+                self.unkusecount += 1
+            else:
+                forewordemitter = self.foreword[wordbefore]
+        else:  # it's the first word of a sentence...
+            do_crf = False  # you can't do that here.
+
+        if wordafter:
+            if wordbefore not in self.afterword.keys():
+                beforewordemitter = self.afterword["#UNK#"]
+                self.unkusecount += 1
+            else:
+                beforewordemitter = self.afterword[wordafter]
+        else:  # it's the first word of a sentence...
+            # you can't CRF here!
+            do_crf = False
+
         for some_target_tag in self.mid_tags_list:
             transition_probabilities = self.get_reverse_transition_probabilities(some_target_tag)
             # grabbed the probability to get to the target node from ALL OTHER NODES.
@@ -118,6 +151,7 @@ class Viterbi2(object):
                 last_last_node = all_last_nodes[last_node]["PREV_PROB"][1]
                 transition_to_target = transition_probabilities[last_node]
                 # find second order probability.
+
                 if last_last_node in self.second_order.tag_dict.keys():  # it's a real tag.
                     if last_node in self.second_order.tag_dict[last_last_node].keys():
 
@@ -127,6 +161,10 @@ class Viterbi2(object):
                 if last_probability == 0 or transition_to_target == 0:
                     continue
                 calculated_probability = last_probability * transition_to_target
+                if do_crf:
+                    calculated_probability = calculated_probability *\
+                                             forewordemitter[some_target_tag] *\
+                                             beforewordemitter[some_target_tag]
                 # based off last probability and the one before it.
 
                 if calculated_probability >= best_probability:
@@ -146,7 +184,7 @@ class Viterbi2(object):
         return return_probabilities
 
 
-sys.argv = ["", "FR"]
+sys.argv = ["", "EN"]
 sentence_get = Part5FeatureObtainer.file_parser(sys.argv[1]+"/train", True)
 forward_dist, backward_dist, list_o_tags = \
     Part5FeatureObtainer.context_window_one_mle_own_word_distinction(sentence_get)
@@ -171,10 +209,10 @@ f.close()
 f = open(sys.argv[1] + "/train", "r", encoding="utf-8")
 secondorder = SecondOrderTransitionEstimator()
 secondorder.train(f)
-predictor = Viterbi2(transitions, estimator, secondorder,smoothed_forward,smoothed_backward)
+predictor = Viterbi2(transitions, estimator, secondorder, smoothed_forward, smoothed_backward)
 
 input_file = open(sys.argv[1] + "/dev.in", "r", encoding="utf-8")
-output_file = open(sys.argv[1] + "/dev.p4.out", "w", encoding="utf-8")
+output_file = open(sys.argv[1] + "/dev.p5b.out", "w", encoding="utf-8")
 
 holder = []
 for line in input_file.readlines():
@@ -189,3 +227,5 @@ for line in input_file.readlines():
 
 # print(predictor.process_sentence(["Polling", "ends", "in", "Bihar", "today", ",", "counting", "on", "November", "24", "http://toi.in/ujtwya"]))
 # print(predictor.process_sentence(["@yoopergirl89", "Yeah", "it", "was", "a", "long", "week", "here", "too", ".", "Luckily", "for", "me", "next", "is", "only", "Monday", "__AND__", "Tuesday", "week", "."]))
+print(sys.argv[1]+" UNKNOWN USE COUNT")
+print(predictor.unkusecount)
