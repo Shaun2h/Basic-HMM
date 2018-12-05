@@ -1,6 +1,6 @@
 import sys
-from Part1 import EmissionMLE
-from Part2 import TransitionEstimator
+from Part2 import EmissionMLE
+from Part3a import TransitionEstimator
 from Part4a import SecondOrderTransitionEstimator
 class Viterbi2(object):
 

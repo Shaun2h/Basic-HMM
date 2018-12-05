@@ -1,7 +1,7 @@
 import sys
 import Part5FeatureObtainer
-from Part1 import EmissionMLE
-from Part2 import TransitionEstimator
+from Part2 import EmissionMLE
+from Part3a import TransitionEstimator
 
 
 class Viterbi(object):
@@ -133,11 +133,11 @@ class Viterbi(object):
         return return_probabilities
 
 
-# if len(sys.argv) < 2:
-#     print("Usage: python3 Part<>.py 'DATASET directory'")
-#     sys.exit()
+if len(sys.argv) < 2:
+    print("Usage: python3 Part<>.py 'DATASET directory'")
+    sys.exit()
 
-sys.argv = ["", "FR"]
+#sys.argv = ["", "FR"]
 sentence_get = Part5FeatureObtainer.file_parser(sys.argv[1]+"/train", True)
 forward_dist, backward_dist, list_o_tags = \
     Part5FeatureObtainer.context_window_one_mle_own_word_distinction(sentence_get)
