@@ -216,7 +216,7 @@ secondorder.train(f)
 predictor = Viterbi2(transitions, estimator, secondorder, smoothed_forward, smoothed_backward)
 
 input_file = open(sys.argv[1] + "/dev.in", "r", encoding="utf-8")
-output_file = open(sys.argv[1] + "/dev.p5b.out", "w", encoding="utf-8")
+output_file = open(sys.argv[1] + "/dev.p5.out", "w", encoding="utf-8")
 
 holder = []
 for line in input_file.readlines():
